@@ -53,6 +53,10 @@ const state = {
   cityBoundarySource: null,
   brandLogos: null,
   compare: { a: null, b: null },
+  compareLayers: { a: null, b: null },
+  compareMarkers: { a: null, b: null },
+  compareRouteCache: { a: null, b: null },
+  _compareRouteSeq: 0,
 };
 
 function loadSettings() {
@@ -622,14 +626,16 @@ function brandMark(brand) {
 function brandPinHtml(station) {
   const m = brandMark(station.brand);
   const logo = brandLogoUrl(station.brand);
+  const slot = compareSlotFor(station.id);
+  const cmp = slot ? ` compare-${slot}` : '';
   if (logo) {
-    return `<div class="brand-pin with-logo" style="--pin-bg:#fff" title="${escapeHtml(m.title)}">
+    return `<div class="brand-pin with-logo${cmp}" style="--pin-bg:#fff" title="${escapeHtml(m.title)}">
       <span class="brand-pin-disk has-logo">
         <img src="${escapeHtml(logo)}" alt="" loading="lazy" decoding="async" />
       </span>
     </div>`;
   }
-  return `<div class="brand-pin" style="--pin-bg:${m.bg};--pin-fg:${m.fg}" title="${escapeHtml(m.title)}">
+  return `<div class="brand-pin${cmp}" style="--pin-bg:${m.bg};--pin-fg:${m.fg}" title="${escapeHtml(m.title)}">
     <span class="brand-pin-disk">${escapeHtml(m.letter)}</span>
   </div>`;
 }
@@ -645,6 +651,192 @@ function brandChipHtml(station) {
   return `<div class="price-chip brand-chip" style="background:${m.bg}">${escapeHtml(m.letter)}</div>`;
 }
 
+function compareSlotFor(stationId) {
+  if (!stationId) return null;
+  if (state.compare.a === stationId) return 'a';
+  if (state.compare.b === stationId) return 'b';
+  return null;
+}
+
+const COMPARE_COLORS = {
+  a: '#1f7a4d',
+  b: '#e08a1e',
+};
+
+function priceMarkerIcon(station, price, { isBest = false } = {}) {
+  const level = priceLevel(price.eur, state.meanPrice);
+  const slot = compareSlotFor(station.id);
+  const cmp = slot ? ` compare-${slot}` : '';
+  return L.divIcon({
+    className: `price-marker ${level}${isBest ? ' best' : ''}${cmp}`,
+    html: markerHtml(price.eur),
+    iconSize: [56, slot ? 34 : 28],
+    iconAnchor: [28, slot ? 28 : 14],
+  });
+}
+
+function brandMarkerIcon(station) {
+  const slot = compareSlotFor(station.id);
+  return L.divIcon({
+    className: `brand-marker${slot ? ` compare-${slot}` : ''}`,
+    html: brandPinHtml(station),
+    iconSize: [36, 42],
+    iconAnchor: [18, 40],
+  });
+}
+
+function clearCompareLayer(which) {
+  const layer = state.compareLayers[which];
+  if (layer && state.map) state.map.removeLayer(layer);
+  state.compareLayers[which] = null;
+}
+
+function clearCompareMarker(which) {
+  const m = state.compareMarkers[which];
+  if (m && state.map) state.map.removeLayer(m);
+  state.compareMarkers[which] = null;
+}
+
+function originCacheKey(origin) {
+  if (!origin) return null;
+  return `${origin.lat.toFixed(5)},${origin.lon.toFixed(5)}`;
+}
+
+function fitCompareBounds() {
+  if (!state.map) return;
+  const pts = [];
+  const origin = originPos();
+  if (origin) pts.push([origin.lat, origin.lon]);
+  for (const which of ['a', 'b']) {
+    const layer = state.compareLayers[which];
+    if (layer?.getBounds) {
+      try {
+        const b = layer.getBounds();
+        if (b.isValid()) {
+          pts.push(b.getSouthWest(), b.getNorthEast());
+        }
+      } catch {
+        /* ignore */
+      }
+    }
+    const id = state.compare[which];
+    const s = id && state.stations.find((x) => x.id === id);
+    if (s?.lat != null) pts.push([s.lat, s.lon]);
+  }
+  if (pts.length < 2) return;
+  try {
+    state.map.fitBounds(L.latLngBounds(pts).pad(0.18));
+  } catch {
+    /* ignore */
+  }
+}
+
+function syncCompareFloatMarkers(rowsById = null) {
+  if (!state.map) return;
+  for (const which of ['a', 'b']) {
+    clearCompareMarker(which);
+    const id = state.compare[which];
+    if (!id) continue;
+    const station = state.stations.find((s) => s.id === id);
+    if (!station?.lat || station.lon == null) continue;
+
+    const row = rowsById?.get(id);
+    const price = row?.price ?? freshPrice(station, currentFuel());
+    const deal = state.dealById?.get(id) || [];
+    const icon =
+      price?.eur != null
+        ? priceMarkerIcon(station, price, { isBest: deal.includes('best_price') })
+        : brandMarkerIcon(station);
+
+    const marker = L.marker([station.lat, station.lon], {
+      icon,
+      zIndexOffset: 1000,
+      keyboard: false,
+    }).addTo(state.map);
+    marker.on('click', () => selectStation(station.id, { fromMap: true }));
+    state.compareMarkers[which] = marker;
+  }
+}
+
+async function syncCompareRoutes() {
+  if (!state.map) return;
+  const seq = ++state._compareRouteSeq;
+  const origin = originPos();
+  const oKey = originCacheKey(origin);
+
+  for (const which of ['a', 'b']) {
+    const id = state.compare[which];
+    if (!id || !origin) {
+      clearCompareLayer(which);
+      state.compareRouteCache[which] = null;
+      continue;
+    }
+    const station = state.stations.find((s) => s.id === id);
+    if (!station?.lat || station.lon == null) {
+      clearCompareLayer(which);
+      state.compareRouteCache[which] = null;
+      continue;
+    }
+
+    const cache = state.compareRouteCache[which];
+    let geometry = null;
+    if (cache && cache.stationId === id && cache.originKey === oKey && cache.geometry) {
+      geometry = cache.geometry;
+    } else {
+      try {
+        const route = await routeDriving(
+          origin,
+          { lat: station.lat, lon: station.lon },
+          { geometry: true },
+        );
+        if (seq !== state._compareRouteSeq) return;
+        geometry = route.geometry;
+        state.compareRouteCache[which] = {
+          stationId: id,
+          originKey: oKey,
+          geometry,
+          distanceKm: route.distanceKm,
+          durationMin: route.durationMin,
+        };
+      } catch (err) {
+        console.warn(`compare route ${which}:`, err.message);
+        clearCompareLayer(which);
+        state.compareRouteCache[which] = null;
+        continue;
+      }
+    }
+
+    clearCompareLayer(which);
+    if (!geometry) continue;
+    const color = COMPARE_COLORS[which];
+    const layer = L.geoJSON(
+      { type: 'Feature', geometry, properties: { slot: which } },
+      {
+        style: {
+          color,
+          weight: 5,
+          opacity: 0.9,
+          lineCap: 'round',
+          lineJoin: 'round',
+        },
+      },
+    ).addTo(state.map);
+    layer.bringToFront();
+    state.compareLayers[which] = layer;
+  }
+
+  if (seq === state._compareRouteSeq) fitCompareBounds();
+}
+
+function syncCompareOverlays(rows = null) {
+  const byId = new Map();
+  if (rows) {
+    for (const r of rows) byId.set(r.station.id, r);
+  }
+  syncCompareFloatMarkers(byId.size ? byId : null);
+  void syncCompareRoutes();
+}
+
 function rebuildMarkers(rows) {
   state.cluster.clearLayers();
   state.markersById.clear();
@@ -653,25 +845,17 @@ function rebuildMarkers(rows) {
   state.meanPrice = deals.mean;
   state.dealById = deals.byId;
 
+  const compareIds = new Set([state.compare.a, state.compare.b].filter(Boolean));
+
   for (const { station, price } of rows) {
+    if (compareIds.has(station.id)) continue;
+
     let icon;
     if (price?.eur != null) {
-      const level = priceLevel(price.eur, state.meanPrice);
       const deal = deals.byId.get(station.id) || [];
-      const isBest = deal.includes('best_price');
-      icon = L.divIcon({
-        className: `price-marker ${level}${isBest ? ' best' : ''}`,
-        html: markerHtml(price.eur),
-        iconSize: [56, 28],
-        iconAnchor: [28, 14],
-      });
+      icon = priceMarkerIcon(station, price, { isBest: deal.includes('best_price') });
     } else {
-      icon = L.divIcon({
-        className: 'brand-marker',
-        html: brandPinHtml(station),
-        iconSize: [34, 40],
-        iconAnchor: [17, 34],
-      });
+      icon = brandMarkerIcon(station);
     }
     const marker = L.marker([station.lat, station.lon], {
       icon,
@@ -682,7 +866,8 @@ function rebuildMarkers(rows) {
     state.markersById.set(station.id, marker);
   }
 
-  fitToCityOrStations(rows);
+  syncCompareOverlays(rows);
+  if (!state.compare.a && !state.compare.b) fitToCityOrStations(rows);
 }
 
 function renderList(rows) {
@@ -1057,6 +1242,8 @@ function setCompareSlot(which, stationId) {
   document.getElementById('compare-result').hidden = true;
   updateComparePickUi(stationId);
   showPanel('compare');
+  // Rebuild markers so A/B float above clusters + draw driving routes from origin.
+  rebuildMarkers(mapStations());
 }
 
 async function runCompare() {

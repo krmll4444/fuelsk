@@ -3,11 +3,15 @@
 const OSRM = 'https://router.project-osrm.org/route/v1/driving';
 
 /**
- * @returns {{ distanceKm: number, durationMin: number, geometry: object|null }}
+ * @param {{lat:number,lon:number}} from
+ * @param {{lat:number,lon:number}} to
+ * @param {{ geometry?: boolean }} [opts]
+ * @returns {Promise<{ distanceKm: number, durationMin: number, geometry: object|null }>}
  */
-export async function routeDriving(from, to) {
+export async function routeDriving(from, to, { geometry = false } = {}) {
   const coords = `${from.lon},${from.lat};${to.lon},${to.lat}`;
-  const url = `${OSRM}/${coords}?overview=false&alternatives=false&steps=false`;
+  const overview = geometry ? 'full' : 'false';
+  const url = `${OSRM}/${coords}?overview=${overview}&geometries=geojson&alternatives=false&steps=false`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`OSRM HTTP ${res.status}`);
   const data = await res.json();
@@ -16,6 +20,7 @@ export async function routeDriving(from, to) {
   return {
     distanceKm: route.distance / 1000,
     durationMin: route.duration / 60,
+    geometry: geometry ? route.geometry || null : null,
   };
 }
 
