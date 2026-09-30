@@ -1,0 +1,95 @@
+name: collect
+
+# Refresh stations.json from benzin.sk + OSM, commit into the repo.
+# pages.yml then redeploys the PWA on push to main/master.
+
+on:
+  schedule:
+    # Once a day at 05:15 UTC (~07:15 Europe/Bratislava in winter, ~06:15–07:15 DST).
+    - cron: '15 5 * * *'
+  workflow_dispatch:
+    inputs:
+      cities:
+        description: 'City ids (comma-separated) or "all"'
+        required: false
+        default: 'all'
+      limit:
+        description: 'Optional per-city station cap (empty = no limit)'
+        required: false
+        default: ''
+      skip_osm:
+        description: 'Skip Overpass OSM fetch'
+        type: boolean
+        required: false
+        default: false
+      skip_geocode:
+        description: 'Skip geocoding (use cache only)'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: engine
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: engine/package-lock.json
+
+      - run: npm ci
+
+      - name: Collect stations
+        env:
+          CITIES: ${{ github.event.inputs.cities || vars.CITIES || 'all' }}
+          DAY_WINDOW: ${{ vars.DAY_WINDOW || '14' }}
+          REQUEST_DELAY_MS: ${{ vars.REQUEST_DELAY_MS || '2000' }}
+          USER_AGENT: ${{ vars.USER_AGENT || format('FuelSK/0.1 (+https://github.com/{0}; GitHub Actions collector)', github.repository) }}
+          NOMINATIM_EMAIL: ${{ secrets.NOMINATIM_EMAIL || vars.NOMINATIM_EMAIL || '' }}
+        run: |
+          set -euo pipefail
+          ARGS=()
+          if [ -n "${{ github.event.inputs.limit || '' }}" ]; then
+            ARGS+=(--limit "${{ github.event.inputs.limit }}")
+          fi
+          if [ "${{ github.event.inputs.skip_osm || 'false' }}" = "true" ]; then
+            ARGS+=(--skip-osm)
+          fi
+          if [ "${{ github.event.inputs.skip_geocode || 'false' }}" = "true" ]; then
+            ARGS+=(--skip-geocode)
+          fi
+          if [ -n "${CITIES}" ] && [ "${CITIES}" != "all" ]; then
+            ARGS+=(--cities "${CITIES}")
+          fi
+          echo "Collect args: ${ARGS[*]:-(default all cities)}"
+          node index.mjs "${ARGS[@]}"
+
+      - name: Commit refreshed data
+        working-directory: .
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stations.json data/networks.json data/geocache.json data/osm_fuel_*.json \
+                  pwa/data/stations.json pwa/data/networks.json || true
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          stamp="$(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "chore(data): refresh stations ${stamp}"
+          git push

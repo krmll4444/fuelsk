@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f3d2e" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0a1f18" media="(prefers-color-scheme: dark)" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Fuel SK" />
+  <meta name="description" content="Ceny pohonných látok na čerpacích staniciach na Slovensku" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/svg+xml" href="./icons/logo.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./vendor/leaflet.css" />
+  <link rel="stylesheet" href="./vendor/MarkerCluster.css" />
+  <link rel="stylesheet" href="./vendor/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="./css/app.css" />
+  <title>Fuel SK</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand" aria-label="Fuel SK">
+        <img class="brand-mark" src="./icons/logo.svg" width="34" height="34" alt="" decoding="async" />
+        <h1 class="brand-title" data-i18n="appTitle">Fuel SK</h1>
+      </div>
+      <div class="top-actions">
+        <button type="button" id="btn-filters" class="icon-btn" data-i18n-aria="filters" data-i18n-title="filters" aria-label="Filtre" title="Filtre" aria-expanded="false" aria-controls="filters-drawer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M7 12h10"/><path d="M10 18h4"/></svg>
+        </button>
+        <button type="button" id="btn-locate" class="icon-btn" data-i18n-aria="locate" data-i18n-title="locate" aria-label="Moja poloha" title="Moja poloha">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="2" x2="5" y1="12" y2="12"/><line x1="19" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="5"/><line x1="12" x2="12" y1="19" y2="22"/><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3"/></svg>
+        </button>
+        <button type="button" id="btn-settings" class="icon-btn" data-i18n-aria="settings" data-i18n-title="settings" aria-label="Nastavenia" title="Nastavenia">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="filters-backdrop" class="drawer-backdrop" hidden></div>
+    <aside id="filters-drawer" class="filters-drawer" aria-hidden="true">
+      <div class="drawer-head">
+        <h2 data-i18n="filters">Filtre</h2>
+        <button type="button" id="btn-filters-close" class="icon-btn drawer-close" data-i18n-aria="closeFilters" aria-label="Zavrieť">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="filters" id="filters">
+        <label class="filter">
+          <span data-i18n="fuel">Palivo</span>
+          <select id="filter-fuel"></select>
+        </label>
+        <label class="filter">
+          <span data-i18n="brand">Značka</span>
+          <select id="filter-brand">
+            <option value="" data-i18n="brandAll">Všetky</option>
+          </select>
+        </label>
+        <label class="filter">
+          <span data-i18n="radius">Polomer</span>
+          <select id="filter-radius">
+            <option value="5">5 km</option>
+            <option value="10" selected>10 km</option>
+            <option value="25">25 km</option>
+            <option value="50">50 km</option>
+            <option value="0" data-i18n="radiusNone">Bez limitu</option>
+          </select>
+        </label>
+        <label class="filter filter-toggle">
+          <span data-i18n="openOnly">Len otvorené</span>
+          <input type="checkbox" id="filter-open" class="toggle-input" />
+          <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+        </label>
+      </div>
+    </aside>
+
+    <main id="map" role="application" data-i18n-aria="mapAria" aria-label="Mapa čerpacích staníc"></main>
+
+    <nav class="tabs" data-i18n-aria="navAria" aria-label="Navigácia">
+      <button type="button" class="tab active" data-panel="list">
+        <svg class="tab-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h12"/></svg>
+        <span data-i18n="tabList">Zoznam</span>
+      </button>
+      <button type="button" class="tab" data-panel="station" id="tab-station" disabled>
+        <svg class="tab-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+        <span data-i18n="tabStation">Stanica</span>
+      </button>
+      <button type="button" class="tab" data-panel="compare" id="tab-compare">
+        <svg class="tab-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="3"/><path d="M12 6h5a2 2 0 0 1 2 2v7"/><path d="m15 9-3-3 3-3"/><circle cx="19" cy="18" r="3"/><path d="M12 18H7a2 2 0 0 1-2-2V9"/><path d="m9 15 3 3-3 3"/></svg>
+        <span data-i18n="tabCompare">Porovnať</span>
+      </button>
+      <button type="button" class="tab" data-panel="settings">
+        <svg class="tab-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+        <span data-i18n="tabSettings">Nastav.</span>
+      </button>
+    </nav>
+
+    <section id="panel-list" class="sheet open" data-sheet-snap="mid" data-i18n-aria="listTitle" aria-label="Najlacnejšie v okolí">
+      <div class="sheet-grab" data-sheet-drag>
+        <div class="sheet-handle" aria-hidden="true"></div>
+        <div class="sheet-head">
+          <h2 data-i18n="listTitle">Najlacnejšie v okolí</h2>
+          <p class="meta" id="list-meta" data-i18n="listLoading">Načítavam…</p>
+        </div>
+      </div>
+      <ul id="station-list" class="station-list"></ul>
+    </section>
+
+    <section id="panel-station" class="sheet" data-sheet-snap="mid" data-i18n-aria="station" aria-label="Stanica" hidden>
+      <div class="sheet-grab" data-sheet-drag>
+        <div class="sheet-handle" aria-hidden="true"></div>
+        <div class="sheet-head">
+          <button type="button" class="text-btn" id="btn-back-list" data-i18n="backList">← Späť na zoznam</button>
+          <h2 id="station-title" data-i18n="station">Stanica</h2>
+          <p class="meta" id="station-address"></p>
+        </div>
+      </div>
+      <div id="station-body" class="station-body"></div>
+      <div class="station-actions">
+        <section class="action-group compare-pick" aria-labelledby="compare-pick-title">
+          <div class="action-group-head">
+            <svg class="action-group-ico" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="3"/><path d="M12 6h5a2 2 0 0 1 2 2v7"/><path d="m15 9-3-3 3-3"/><circle cx="19" cy="18" r="3"/><path d="M12 18H7a2 2 0 0 1-2-2V9"/><path d="m9 15 3 3-3 3"/></svg>
+            <div>
+              <h3 id="compare-pick-title" class="action-group-title" data-i18n="comparePickTitle">Porovnať dve stanice</h3>
+              <p class="action-group-hint" data-i18n="comparePickHint">Pridajte túto stanicu do porovnania ako A alebo B</p>
+            </div>
+          </div>
+          <div class="compare-pick-btns">
+            <button type="button" class="btn compare-slot-btn" id="btn-compare-a">
+              <span class="slot-badge" aria-hidden="true">A</span>
+              <span class="compare-slot-text">
+                <strong data-i18n="compareAsA">Stanica A</strong>
+                <small id="compare-a-status" data-i18n="compareSlotEmpty">ťuknite pre výber</small>
+              </span>
+              <svg class="slot-fuel-ico" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" x2="15" y1="22" y2="22"/><line x1="4" x2="14" y1="9" y2="9"/><path d="M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18"/><path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5"/></svg>
+            </button>
+            <div class="compare-vs" aria-hidden="true">
+              <span>vs</span>
+            </div>
+            <button type="button" class="btn compare-slot-btn" id="btn-compare-b">
+              <span class="slot-badge slot-badge-b" aria-hidden="true">B</span>
+              <span class="compare-slot-text">
+                <strong data-i18n="compareAsB">Stanica B</strong>
+                <small id="compare-b-status" data-i18n="compareSlotEmpty">ťuknite pre výber</small>
+              </span>
+              <svg class="slot-fuel-ico" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" x2="15" y1="22" y2="22"/><line x1="4" x2="14" y1="9" y2="9"/><path d="M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18"/><path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5"/></svg>
+            </button>
+          </div>
+        </section>
+        <section class="action-group maps-links" aria-labelledby="maps-title">
+          <h3 id="maps-title" class="action-group-title" data-i18n="navigateTitle">Navigácia</h3>
+          <div class="maps-btns">
+            <a id="btn-route-apple" class="btn map-btn map-apple" href="#" target="_blank" rel="noopener">
+              <img class="map-logo" src="./icons/maps/apple-maps.png" width="28" height="28" alt="" />
+              <span>Apple Maps</span>
+            </a>
+            <a id="btn-route-google" class="btn map-btn map-google" href="#" target="_blank" rel="noopener">
+              <img class="map-logo" src="./icons/maps/google-maps.png" width="22" height="32" alt="" />
+              <span>Google Maps</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="panel-compare" class="sheet" data-sheet-snap="mid" data-i18n-aria="compareTitle" aria-label="Porovnať" hidden>
+      <div class="sheet-grab" data-sheet-drag>
+        <div class="sheet-handle" aria-hidden="true"></div>
+        <div class="sheet-head">
+          <h2 data-i18n="compareTitle">Kam sa oplatí</h2>
+          <p class="meta" id="compare-origin-meta" data-i18n="compareMeta">Z domu / polohy k dvom staniciam</p>
+        </div>
+      </div>
+      <div class="compare-body" id="compare-body">
+        <div class="compare-slots">
+          <div class="compare-slot" id="slot-a">
+            <div class="slot-label">A</div>
+            <div class="slot-name" id="slot-a-name" data-i18n="pickA">Vyberte stanicu → Stanica A</div>
+          </div>
+          <div class="compare-slot" id="slot-b">
+            <div class="slot-label">B</div>
+            <div class="slot-name" id="slot-b-name" data-i18n="pickB">Vyberte stanicu → Stanica B</div>
+          </div>
+        </div>
+        <button type="button" class="btn primary" id="btn-run-compare" disabled data-i18n="runCompare">Spočítať trasy</button>
+        <div id="compare-result" class="compare-result" hidden></div>
+      </div>
+    </section>
+
+    <section id="panel-settings" class="sheet" data-sheet-snap="full" data-i18n-aria="settingsTitle" aria-label="Nastavenia" hidden>
+      <div class="sheet-grab" data-sheet-drag>
+        <div class="sheet-handle" aria-hidden="true"></div>
+        <div class="sheet-head">
+          <h2 data-i18n="settingsTitle">Nastavenia</h2>
+          <p class="meta" data-i18n="settingsHint">Ukladajú sa len na tomto zariadení</p>
+        </div>
+      </div>
+      <form id="settings-form" class="settings-form">
+        <label><span data-i18n="language">Jazyk</span>
+          <select name="lang" id="settings-lang"></select>
+        </label>
+        <label><span data-i18n="city">Mesto</span>
+          <select name="cityId" id="settings-city"></select>
+        </label>
+        <label class="autocomplete-field"><span data-i18n="homeAddress">Domáca adresa</span>
+          <input name="homeLabel" id="settings-home" type="text" autocomplete="off" data-i18n-placeholder="homePlaceholder" placeholder="ul. …, mesto" />
+          <ul id="home-suggest" class="suggest-list" hidden></ul>
+        </label>
+        <label><span data-i18n="defaultFuel">Predvolené palivo</span>
+          <select name="fuel" id="settings-fuel"></select>
+        </label>
+        <label><span data-i18n="consumption">Spotreba (l/100 km)</span>
+          <input name="consumption" type="number" step="0.1" min="1" max="40" />
+        </label>
+        <label><span data-i18n="tankLiters">Objem tankovania (l)</span>
+          <input name="tankLiters" type="number" step="1" min="5" max="200" />
+        </label>
+        <label><span data-i18n="searchRadius">Polomer hľadania (km)</span>
+          <input name="radiusKm" type="number" step="1" min="1" max="200" />
+        </label>
+        <label><span data-i18n="maxDetour">Max. obchádzka (km)</span>
+          <input name="maxDetourKm" type="number" step="1" min="1" max="50" />
+        </label>
+        <label><span data-i18n="theme">Téma</span>
+          <select name="theme">
+            <option value="system" data-i18n="themeSystem">Systémová</option>
+            <option value="light" data-i18n="themeLight">Svetlá</option>
+            <option value="dark" data-i18n="themeDark">Tmavá</option>
+          </select>
+        </label>
+        <button type="submit" class="btn primary" data-i18n="save">Uložiť</button>
+      </form>
+      <p class="footnote" id="data-stamp"></p>
+    </section>
+  </div>
+
+  <script src="./vendor/leaflet.js"></script>
+  <script src="./vendor/leaflet.markercluster.js"></script>
+  <script src="./js/app.js" type="module"></script>
+</body>
+</html>

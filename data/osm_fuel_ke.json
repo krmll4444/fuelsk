@@ -1,0 +1,4252 @@
+{
+  "generatedAt": "2026-09-30T06:27:00.601Z",
+  "region": "KE",
+  "stations": [
+    {
+      "id": "osm-n33023431",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.5959535,
+      "lon": 20.6869633,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 33023431,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n33023433",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.6479523,
+      "lon": 20.5396078,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 33023433,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n33023435",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.4937726,
+      "lon": 20.3719625,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 33023435,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n33023437",
+      "name": "DALIOIL",
+      "brand": "DALIOIL",
+      "address": null,
+      "lat": 48.3805244,
+      "lon": 20.1728944,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 33023437,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n34149345",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0319522,
+      "lon": 21.51723,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149345,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149347",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.8604847,
+      "lon": 20.9547907,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149347,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n34149365",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7261457,
+      "lon": 21.2928478,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149365,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149367",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.7029411,
+      "lon": 21.2406671,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-21:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149367,
+        "opening_hours": "Mo-Su 06:00-21:00"
+      }
+    },
+    {
+      "id": "osm-n34149376",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.6779942,
+      "lon": 21.2686848,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149376,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n34149384",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.4315894,
+      "lon": 21.9836121,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149384,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n34149394",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.6289468,
+      "lon": 21.1713522,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149394,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n34149412",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0306142,
+      "lon": 20.6061853,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149412,
+        "opening_hours": "Mo-Su 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n34149420",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7434035,
+      "lon": 21.8973115,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149420,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149444",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7466258,
+      "lon": 21.9440166,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149444,
+        "opening_hours": "Mo-Su 05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-n34149490",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.991711,
+      "lon": 21.2596685,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149490,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n34149494",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7020412,
+      "lon": 21.6863287,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149494,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149506",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.6574105,
+      "lon": 20.5491393,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149506,
+        "opening_hours": "05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-n34149515",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.6372013,
+      "lon": 20.5104573,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149515,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n34149547",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.9507576,
+      "lon": 20.5777889,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149547,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n34149550",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.9410076,
+      "lon": 20.5791428,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149550,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n34149588",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.6057237,
+      "lon": 21.717347,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149588,
+        "opening_hours": "Mo-Su 05:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149591",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.4232746,
+      "lon": 20.3182875,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149591,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149625",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.5501725,
+      "lon": 22.0725362,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149625,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n34149751",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.8830438,
+      "lon": 21.6615007,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 34149751,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n175302554",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": "Moldavská cesta Košice",
+      "lat": 48.6982292,
+      "lon": 21.2376718,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 175302554,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n194460163",
+      "name": "Jurki",
+      "brand": "Jurki",
+      "address": "Osloboditeľov 396 Kamenica nad Cirochou",
+      "lat": 48.9367825,
+      "lon": 22.0082379,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Fr 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 194460163,
+        "opening_hours": "Mo-Fr 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n206216705",
+      "name": "Jurki",
+      "brand": "Jurki",
+      "address": null,
+      "lat": 48.8161218,
+      "lon": 21.6861101,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 206216705,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n206359554",
+      "name": "DALIOIL",
+      "brand": "DALIOIL",
+      "address": null,
+      "lat": 48.7248036,
+      "lon": 21.2921152,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 206359554,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n253022688",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7064766,
+      "lon": 21.2663239,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 253022688,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n253897800",
+      "name": "OSM node/253897800",
+      "brand": null,
+      "address": null,
+      "lat": 49.0069598,
+      "lon": 20.7463455,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 253897800,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n254396495",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 49.013817,
+      "lon": 20.5720403,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 254396495,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n257740442",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.9489305,
+      "lon": 20.5539934,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 257740442,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n259150275",
+      "name": "Tanker",
+      "brand": "Tanker",
+      "address": null,
+      "lat": 48.6981548,
+      "lon": 21.2655902,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 259150275,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n261724357",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.6326655,
+      "lon": 21.7183784,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 261724357,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n276080328",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.7047257,
+      "lon": 21.2802299,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 276080328,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n317875446",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.7395461,
+      "lon": 21.2547109,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 317875446,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n362137497",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.9850613,
+      "lon": 21.2491079,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 362137497,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n377906545",
+      "name": "Tesco",
+      "brand": "Tesco",
+      "address": null,
+      "lat": 48.7447585,
+      "lon": 21.9181082,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 377906545,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n384725479",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.9922172,
+      "lon": 21.2659049,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 384725479,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n413527630",
+      "name": "OSM node/413527630",
+      "brand": null,
+      "address": null,
+      "lat": 48.8044141,
+      "lon": 22.0014978,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 413527630,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n413532941",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "address": null,
+      "lat": 48.6984991,
+      "lon": 21.7974287,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 413532941,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n428722396",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.5510422,
+      "lon": 21.2596399,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 428722396,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n457846779",
+      "name": "Tanker",
+      "brand": "Tanker",
+      "address": null,
+      "lat": 48.8026478,
+      "lon": 20.38732,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 457846779,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n457875129",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.94208,
+      "lon": 20.5605516,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 457875129,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n457875140",
+      "name": "Gas",
+      "brand": "Gas",
+      "address": null,
+      "lat": 48.9529246,
+      "lon": 20.5254196,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 457875140,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n659606339",
+      "name": "OSM node/659606339",
+      "brand": null,
+      "address": null,
+      "lat": 48.4580644,
+      "lon": 21.6442795,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 659606339,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n659606340",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.4281004,
+      "lon": 21.6592135,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 659606340,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n666232720",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.7230486,
+      "lon": 21.2281807,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 666232720,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n746954228",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.9555052,
+      "lon": 21.2580329,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 746954228,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n882404873",
+      "name": "VOMS",
+      "brand": "VOMS",
+      "address": null,
+      "lat": 48.998863,
+      "lon": 21.2704737,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:30-21:30",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 882404873,
+        "opening_hours": "Mo-Su 06:30-21:30"
+      }
+    },
+    {
+      "id": "osm-n943196997",
+      "name": "OSM node/943196997",
+      "brand": null,
+      "address": null,
+      "lat": 48.6096689,
+      "lon": 21.7088637,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 943196997,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n1133676173",
+      "name": "DALIOIL",
+      "brand": "DALIOIL",
+      "address": null,
+      "lat": 48.7616301,
+      "lon": 21.9217263,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1133676173,
+        "opening_hours": "Mo-Su 05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-n1135291239",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.8853359,
+      "lon": 21.657104,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1135291239,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1135810021",
+      "name": "OSM node/1135810021",
+      "brand": null,
+      "address": null,
+      "lat": 48.9168247,
+      "lon": 20.8711849,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1135810021,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n1144039069",
+      "name": "Gas",
+      "brand": "Gas",
+      "address": "Petrovianska 7327 Prešov",
+      "lat": 48.9644831,
+      "lon": 21.2546251,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1144039069,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1319090922",
+      "name": "OSM node/1319090922",
+      "brand": null,
+      "address": null,
+      "lat": 48.9929677,
+      "lon": 21.8407847,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1319090922,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n1511896813",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "address": null,
+      "lat": 48.9459161,
+      "lon": 20.8076527,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1511896813,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n1568622349",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "okres Košice II",
+      "lat": 48.6656572,
+      "lon": 21.2084731,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1568622349,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1589857464",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.953527,
+      "lon": 21.5816734,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1589857464,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1601008027",
+      "name": "Euro Koškovce",
+      "brand": "Euro Koškovce",
+      "address": null,
+      "lat": 49.0498441,
+      "lon": 21.9576923,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1601008027,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n1618740656",
+      "name": "Pumpa",
+      "brand": "Pumpa",
+      "address": null,
+      "lat": 48.8393289,
+      "lon": 20.6268504,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1618740656,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n1673635169",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.7525607,
+      "lon": 21.9006958,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1673635169,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1673636179",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.7453915,
+      "lon": 21.9194092,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1673636179,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1780131108",
+      "name": "DALIOIL",
+      "brand": "DALIOIL",
+      "address": null,
+      "lat": 48.8710733,
+      "lon": 21.8220079,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1780131108,
+        "opening_hours": "Mo-Su 05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-n1789239058",
+      "name": "Tesco",
+      "brand": "Tesco",
+      "address": null,
+      "lat": 48.9817655,
+      "lon": 21.253417,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su,PH 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1789239058,
+        "opening_hours": "Mo-Su,PH 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n1792890793",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.7002902,
+      "lon": 21.2627237,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1792890793,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1795764341",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7200619,
+      "lon": 21.2731227,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Sa 06:00-22:00; Su 08:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1795764341,
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n1799566579",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.6694094,
+      "lon": 21.271931,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1799566579,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1799569444",
+      "name": "AS 24",
+      "brand": "AS 24",
+      "address": null,
+      "lat": 48.5357968,
+      "lon": 21.2571704,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1799569444,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n1815411587",
+      "name": "LPG Košice 1.SPS",
+      "brand": "1SPS a.s.",
+      "address": null,
+      "lat": 48.6718251,
+      "lon": 21.2716425,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 07:00-19:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1815411587,
+        "opening_hours": "Mo-Su 07:00-19:00"
+      }
+    },
+    {
+      "id": "osm-n1845775988",
+      "name": "Tankujeme!",
+      "brand": "Tankujeme!",
+      "address": null,
+      "lat": 49.0031483,
+      "lon": 21.100288,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 1845775988,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n2101870891",
+      "name": "DALIOIL",
+      "brand": "DALIOIL",
+      "address": "Poprad",
+      "lat": 49.0496538,
+      "lon": 20.3115391,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2101870891,
+        "opening_hours": "Mo-Su 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n2267175619",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "address": null,
+      "lat": 49.0040731,
+      "lon": 20.4672491,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2267175619,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n2344999837",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0007354,
+      "lon": 21.1842652,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2344999837,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n2407308367",
+      "name": "Töltőállomás",
+      "brand": "Töltőállomás",
+      "address": null,
+      "lat": 48.4669049,
+      "lon": 20.5019548,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2407308367,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n2470748768",
+      "name": "LPG Flavia",
+      "brand": "MUZA GROUP",
+      "address": null,
+      "lat": 48.7433612,
+      "lon": 21.265501,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Sa 07:00-19:00; Su 08:00-19:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2470748768,
+        "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-19:00"
+      }
+    },
+    {
+      "id": "osm-n2587660219",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0010274,
+      "lon": 21.1868771,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2587660219,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n2615296990",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.9532192,
+      "lon": 20.5449725,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2615296990,
+        "opening_hours": "Mo-Su 05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-n2838451387",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "address": null,
+      "lat": 48.7351831,
+      "lon": 21.5657384,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2838451387,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n2918397222",
+      "name": "LPG",
+      "brand": "LPG",
+      "address": null,
+      "lat": 48.762348,
+      "lon": 21.9226639,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2918397222,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n2931039723",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "Močarianska Michalovce",
+      "lat": 48.7435358,
+      "lon": 21.8985578,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Fr 05:00-22:00; Sa,Su 07:00-21:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2931039723,
+        "opening_hours": "Mo-Fr 05:00-22:00; Sa,Su 07:00-21:00"
+      }
+    },
+    {
+      "id": "osm-n2991378803",
+      "name": "BC Energosun",
+      "brand": "BC Energosun",
+      "address": null,
+      "lat": 48.5583592,
+      "lon": 22.0598614,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 2991378803,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n3107715871",
+      "name": "CNG",
+      "brand": "SPP",
+      "address": null,
+      "lat": 48.7430638,
+      "lon": 21.927439,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 3107715871,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n3372652690",
+      "name": "OSM node/3372652690",
+      "brand": null,
+      "address": null,
+      "lat": 48.6980629,
+      "lon": 21.2361951,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 3372652690,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n3373972399",
+      "name": "Awior",
+      "brand": "Awior",
+      "address": null,
+      "lat": 48.697883,
+      "lon": 20.9110023,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-19:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 3373972399,
+        "opening_hours": "Mo-Su 06:00-19:00"
+      }
+    },
+    {
+      "id": "osm-n3462281887",
+      "name": "OSM node/3462281887",
+      "brand": null,
+      "address": null,
+      "lat": 48.396951,
+      "lon": 20.739426,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 3462281887,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n3743915679",
+      "name": "OSM node/3743915679",
+      "brand": null,
+      "address": null,
+      "lat": 48.5611552,
+      "lon": 21.9185891,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 3743915679,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n3878421402",
+      "name": "LPG",
+      "brand": "LPG",
+      "address": null,
+      "lat": 49.0311123,
+      "lon": 21.5153089,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 3878421402,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n4267711923",
+      "name": "OSM node/4267711923",
+      "brand": null,
+      "address": null,
+      "lat": 48.65079,
+      "lon": 21.9951655,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 4267711923,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n4303313817",
+      "name": "PEGAS",
+      "brand": "PEGAS",
+      "address": null,
+      "lat": 48.5435676,
+      "lon": 20.4057156,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 4303313817,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n4497077601",
+      "name": "OSM node/4497077601",
+      "brand": null,
+      "address": null,
+      "lat": 49.0037031,
+      "lon": 20.4659897,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 4497077601,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n4720888690",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "address": "Dlhá",
+      "lat": 48.8751685,
+      "lon": 21.7042644,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 4720888690,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n5165479265",
+      "name": "Jurki",
+      "brand": "Jurki",
+      "address": null,
+      "lat": 48.9540119,
+      "lon": 20.5539476,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 07:00-15:30",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 5165479265,
+        "opening_hours": "Mo-Su 07:00-15:30"
+      }
+    },
+    {
+      "id": "osm-n5283243147",
+      "name": "OSM node/5283243147",
+      "brand": null,
+      "address": null,
+      "lat": 48.4710158,
+      "lon": 21.5213236,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 5283243147,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n5569716951",
+      "name": "SPP CNG",
+      "brand": "SPP CNG",
+      "address": null,
+      "lat": 48.7390338,
+      "lon": 21.2700806,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 5569716951,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n5751227613",
+      "name": "Čerpacie stanice Domaša",
+      "brand": "Domaša",
+      "address": null,
+      "lat": 49.0350647,
+      "lon": 21.7153006,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 5751227613,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n5851436008",
+      "name": "OSM node/5851436008",
+      "brand": null,
+      "address": null,
+      "lat": 48.9510442,
+      "lon": 20.5451181,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 5851436008,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n6707191503",
+      "name": "LPG Rožňava",
+      "brand": "LPG Rožňava",
+      "address": null,
+      "lat": 48.6503545,
+      "lon": 20.5230933,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 6707191503,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n8104341159",
+      "name": "Gas",
+      "brand": "Gas",
+      "address": null,
+      "lat": 48.9470359,
+      "lon": 20.5492341,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 8104341159,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n8988139539",
+      "name": "Rossi engine",
+      "brand": "Rossi engine",
+      "address": null,
+      "lat": 48.6451645,
+      "lon": 20.5226245,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 8988139539,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n8988139579",
+      "name": "Zagiba OIL",
+      "brand": "Ing. Tibor Zagiba",
+      "address": null,
+      "lat": 48.6442151,
+      "lon": 20.5229839,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "05:00-21:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 8988139579,
+        "opening_hours": "05:00-21:00"
+      }
+    },
+    {
+      "id": "osm-n9103568784",
+      "name": "Sadka",
+      "brand": "Sadka",
+      "address": null,
+      "lat": 48.8947307,
+      "lon": 21.6755815,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 9103568784,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n9169382849",
+      "name": "Orlen express",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.9856317,
+      "lon": 21.2528566,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 9169382849,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n9432164014",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.626392,
+      "lon": 21.6996287,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 9432164014,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n9587925667",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 49.0197865,
+      "lon": 20.5842916,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 9587925667,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n9986121508",
+      "name": "LPG Flaga",
+      "brand": "LPG Flaga",
+      "address": null,
+      "lat": 49.0081064,
+      "lon": 21.2488042,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 9986121508,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n9986958621",
+      "name": "LPG Cars",
+      "brand": "LPG Cars",
+      "address": "Slanská 55 Prešov",
+      "lat": 49.019834,
+      "lon": 21.28414,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 9986958621,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n10021696777",
+      "name": "LPG FLAVIA",
+      "brand": "LPG FLAVIA",
+      "address": "Čergovská 1 Prešov",
+      "lat": 48.9971161,
+      "lon": 21.2711211,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10021696777,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n10654026268",
+      "name": "DALIOIL",
+      "brand": "DALIOIL",
+      "address": null,
+      "lat": 48.8144394,
+      "lon": 20.3843822,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10654026268,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n10672622213",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.6912442,
+      "lon": 21.2802436,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10672622213,
+        "opening_hours": "Mo-Su 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n10672622214",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.7409925,
+      "lon": 21.2594658,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10672622214,
+        "opening_hours": "Mo-Su 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n10679141685",
+      "name": "Orlen express",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.8848223,
+      "lon": 21.6762745,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10679141685,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n10747658104",
+      "name": "OK OIL",
+      "brand": "OK OIL",
+      "address": null,
+      "lat": 48.8578788,
+      "lon": 21.725323,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Sa 05:30-22:00; Su 07:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10747658104,
+        "opening_hours": "Mo-Sa 05:30-22:00; Su 07:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n10925098208",
+      "name": "OSM node/10925098208",
+      "brand": null,
+      "address": null,
+      "lat": 48.3909978,
+      "lon": 21.7583102,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 10925098208,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n11037130140",
+      "name": "SADKA",
+      "brand": "SADKA",
+      "address": null,
+      "lat": 48.9307768,
+      "lon": 21.8858119,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Sa 06:30-18:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 11037130140,
+        "opening_hours": "Mo-Sa 06:30-18:00"
+      }
+    },
+    {
+      "id": "osm-n11139702442",
+      "name": "Flavia Art",
+      "brand": "Flavia Art",
+      "address": null,
+      "lat": 48.9728526,
+      "lon": 21.2531008,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 11139702442,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n11709298623",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 49.0020234,
+      "lon": 21.2172925,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 11709298623,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n11730653749",
+      "name": "FEDoil",
+      "brand": "súkromný vlastník",
+      "address": null,
+      "lat": 48.9128048,
+      "lon": 20.6342852,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 07:00-21:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 11730653749,
+        "opening_hours": "Mo-Su 07:00-21:00"
+      }
+    },
+    {
+      "id": "osm-n12039046859",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0112097,
+      "lon": 21.2582506,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12039046859,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12192277868",
+      "name": "Orlen express",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 49.013152,
+      "lon": 21.2577866,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12192277868,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12313982488",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 49.0060885,
+      "lon": 21.2659286,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12313982488,
+        "opening_hours": "Mo-Su 05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-n12335270602",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 49.0087212,
+      "lon": 21.221371,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12335270602,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12463583702",
+      "name": "OSM node/12463583702",
+      "brand": null,
+      "address": null,
+      "lat": 48.8249686,
+      "lon": 21.7553561,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12463583702,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12500769061",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.7577151,
+      "lon": 21.8937508,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12500769061,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12586976463",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 48.4319837,
+      "lon": 21.9717267,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12586976463,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12587471647",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.6085413,
+      "lon": 20.986351,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12587471647,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12587977266",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.7667755,
+      "lon": 21.8868858,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12587977266,
+        "opening_hours": "Mo-Su 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n12634193487",
+      "name": "CNG stanica Bonnet",
+      "brand": "Bonett",
+      "address": "Jána Pavla II. 11941/7 Prešov",
+      "lat": 48.9836877,
+      "lon": 21.2362531,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12634193487,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12645616478",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.6869695,
+      "lon": 21.2826007,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12645616478,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n12741319889",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7213099,
+      "lon": 21.2157466,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12741319889,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n12983402335",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 49.0120764,
+      "lon": 20.601051,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 12983402335,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n13017276963",
+      "name": "Independent",
+      "brand": "Independent",
+      "address": null,
+      "lat": 48.6072287,
+      "lon": 21.621478,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13017276963,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-n13018716181",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 49.0462493,
+      "lon": 21.4103423,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13018716181,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n13022515302",
+      "name": "Orlen express",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.7005933,
+      "lon": 21.2354444,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13022515302,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n13098767687",
+      "name": "Kralupol",
+      "brand": "Kralupol",
+      "address": null,
+      "lat": 48.741299,
+      "lon": 21.2593413,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13098767687,
+        "opening_hours": "Mo-Su 06:00-20:00"
+      }
+    },
+    {
+      "id": "osm-n13159175987",
+      "name": "Orlen express",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.6965617,
+      "lon": 21.2488487,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13159175987,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n13233932073",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0001897,
+      "lon": 21.2070981,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13233932073,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n13521353722",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 49.0073205,
+      "lon": 21.2479137,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13521353722,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-n13521378813",
+      "name": "Orlen",
+      "brand": "Orlen",
+      "address": null,
+      "lat": 48.8375896,
+      "lon": 21.3031498,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13521378813,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-n13755174010",
+      "name": "Tankujeme!",
+      "brand": "Tankujeme!",
+      "address": null,
+      "lat": 49.0164956,
+      "lon": 21.2623158,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "node",
+        "id": 13755174010,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w49695360",
+      "name": "Tesco",
+      "brand": "Tesco",
+      "address": "2882 Košice",
+      "lat": 48.7407165,
+      "lon": 21.264187,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 49695360,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w50094642",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": "2914 Košice",
+      "lat": 48.7303124,
+      "lon": 21.2766978,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 50094642,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w50094656",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.7339559,
+      "lon": 21.2756064,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 50094656,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w50886822",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "1201 Košice",
+      "lat": 48.7310169,
+      "lon": 21.2905175,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Sa 05:00-23:00; Su 07:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 50886822,
+        "opening_hours": "Mo-Sa 05:00-23:00; Su 07:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w51557069",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "3240 Košice",
+      "lat": 48.7291944,
+      "lon": 21.2603831,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 51557069,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w51847030",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "Trieda SNP 23 Košice",
+      "lat": 48.7173126,
+      "lon": 21.234797,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 51847030,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w51964394",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": "Americká trieda 2760/2 Košice",
+      "lat": 48.7497121,
+      "lon": 21.2706994,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 51964394,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w52476922",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "2599 Košice",
+      "lat": 48.728109,
+      "lon": 21.2424226,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 52476922,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w52514229",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "Moldavská cesta Košice",
+      "lat": 48.698287,
+      "lon": 21.2366063,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 52514229,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w58015168",
+      "name": "Mogul",
+      "brand": "GAS & OIL s.r.o.",
+      "address": "Cesta do Hanisky okres Košice II",
+      "lat": 48.6311038,
+      "lon": 21.216129,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 58015168,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w59008682",
+      "name": "Pumpa",
+      "brand": "Pumpa",
+      "address": "Nová 624/84 Jaklovce",
+      "lat": 48.876276,
+      "lon": 20.9976685,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 59008682,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w61324184",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "227 Šarišské Bohdanovce",
+      "lat": 48.8359926,
+      "lon": 21.3028579,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 61324184,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w73351744",
+      "name": "SPP - LPG a CNG čerpacia stanica Prešov",
+      "brand": "SPP",
+      "address": "7832 Prešov",
+      "lat": 49.022744,
+      "lon": 21.2641322,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 73351744,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w93947334",
+      "name": "ECO+ Autoplyn",
+      "brand": "ECO+ Autoplyn",
+      "address": null,
+      "lat": 48.9999525,
+      "lon": 21.2065998,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 93947334,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w101002820",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": "Jána Pavla II. 11941/7 Prešov",
+      "lat": 48.9840343,
+      "lon": 21.2365862,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 101002820,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w167325654",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": "Alejová 2521/20 Košice",
+      "lat": 48.6942785,
+      "lon": 21.2530596,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167325654,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w167350339",
+      "name": "Flavia",
+      "brand": "Flavia",
+      "address": "Pri prachárni Košice",
+      "lat": 48.6994033,
+      "lon": 21.2494047,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167350339,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w167350345",
+      "name": "TAM Autohof",
+      "brand": "TAM Autohof",
+      "address": "Pri prachárni 1636/3 Košice",
+      "lat": 48.6995807,
+      "lon": 21.2498929,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167350345,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w167354820",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.7030628,
+      "lon": 21.245202,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167354820,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w167492271",
+      "name": "Tesco",
+      "brand": "Tesco",
+      "address": "Slanecká Košice",
+      "lat": 48.6817767,
+      "lon": 21.2901806,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167492271,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w167537378",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 48.9834366,
+      "lon": 21.252105,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167537378,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w167620247",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": "Južné nábrežie 2377/19 Košice",
+      "lat": 48.703631,
+      "lon": 21.2793116,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 167620247,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w168554404",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": "Jantárová 2473/32 Košice",
+      "lat": 48.7064794,
+      "lon": 21.2653862,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 168554404,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w185662032",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": null,
+      "lat": 49.0077603,
+      "lon": 21.2497834,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 185662032,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w247669264",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "address": "1404 Čaňa",
+      "lat": 48.6001009,
+      "lon": 21.3207738,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 247669264,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w249935409",
+      "name": "JOPI",
+      "brand": "JOPI",
+      "address": null,
+      "lat": 48.6617791,
+      "lon": 20.3698402,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 249935409,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w263492161",
+      "name": "OSM way/263492161",
+      "brand": null,
+      "address": null,
+      "lat": 48.8133191,
+      "lon": 20.8224265,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 263492161,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w289524516",
+      "name": "LPG Flaga",
+      "brand": "LPG Flaga",
+      "address": "Slovenská Michalovce",
+      "lat": 48.7510951,
+      "lon": 21.9004556,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 289524516,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w325508800",
+      "name": "Elan Energia Kft.",
+      "brand": "Energia Kft.",
+      "address": "Dózsa György út 18 Bódvaszilas",
+      "lat": 48.5385565,
+      "lon": 20.7351792,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Fr 06:00-18:00; Sa 07:00-15:00; Su off",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 325508800,
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa 07:00-15:00; Su off"
+      }
+    },
+    {
+      "id": "osm-w480858705",
+      "name": "StopOil",
+      "brand": "StopOil",
+      "address": null,
+      "lat": 48.4149079,
+      "lon": 21.6455191,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 480858705,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w494393755",
+      "name": "Orlen express",
+      "brand": "Orlen",
+      "address": "Šafárikova 4274/114A Rožňava",
+      "lat": 48.6508953,
+      "lon": 20.5262032,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 494393755,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w495623971",
+      "name": "NOL",
+      "brand": "Novák Üzemanyag Kft.",
+      "address": "Pálháza",
+      "lat": 48.4710769,
+      "lon": 21.5213487,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 495623971,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w512326956",
+      "name": "METRO",
+      "brand": "METRO",
+      "address": null,
+      "lat": 48.7496553,
+      "lon": 21.2725808,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Sa 06:00-20:00; Su 08:00-20:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 512326956,
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 08:00-20:00"
+      }
+    },
+    {
+      "id": "osm-w591021390",
+      "name": "OSM way/591021390",
+      "brand": null,
+      "address": null,
+      "lat": 48.6692316,
+      "lon": 21.2717227,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 591021390,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w591023581",
+      "name": "OSM way/591023581",
+      "brand": null,
+      "address": null,
+      "lat": 48.739381,
+      "lon": 21.2543491,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 591023581,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w603855515",
+      "name": "OSM way/603855515",
+      "brand": null,
+      "address": null,
+      "lat": 48.686827,
+      "lon": 21.2830393,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 603855515,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w805305897",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": "Kazinczy Ferenc utca Sátoraljaújhely",
+      "lat": 48.4130969,
+      "lon": 21.6491052,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-20:00; PH off",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 805305897,
+        "opening_hours": "Mo-Su 06:00-20:00; PH off"
+      }
+    },
+    {
+      "id": "osm-w806570449",
+      "name": "MOL",
+      "brand": "MOL",
+      "address": "Várhegy Sátoraljaújhely",
+      "lat": 48.3779736,
+      "lon": 21.6388737,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 806570449,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w902426912",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": "Mierová 96/66A Humenné",
+      "lat": 48.9313088,
+      "lon": 21.8781424,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 902426912,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w902426915",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": "Mierová 2578/81 Humenné",
+      "lat": 48.9332373,
+      "lon": 21.8845215,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 902426915,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w903952634",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": "Námestie slobody 2626/68 Humenné",
+      "lat": 48.9321384,
+      "lon": 21.9096334,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 903952634,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w906916850",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 48.9403609,
+      "lon": 21.9312078,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 06:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 906916850,
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w915207530",
+      "name": "TANKER, s.r.o.",
+      "brand": "Tanker",
+      "address": "2567 Humenné",
+      "lat": 48.9297569,
+      "lon": 21.9205603,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Fr 05:00-22:00; Sa-Su 07:00-22:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 915207530,
+        "opening_hours": "Mo-Fr 05:00-22:00; Sa-Su 07:00-22:00"
+      }
+    },
+    {
+      "id": "osm-w928721013",
+      "name": "Pumpa Snina",
+      "brand": "Pumpa Snina",
+      "address": "SNP 1/1 Snina",
+      "lat": 48.9819327,
+      "lon": 22.129048,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "Mo-Su 05:00-23:00",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 928721013,
+        "opening_hours": "Mo-Su 05:00-23:00"
+      }
+    },
+    {
+      "id": "osm-w998266219",
+      "name": "OSM way/998266219",
+      "brand": null,
+      "address": "Gönc",
+      "lat": 48.4771289,
+      "lon": 21.2634428,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 998266219,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w1014447489",
+      "name": "OSM way/1014447489",
+      "brand": null,
+      "address": null,
+      "lat": 48.6984717,
+      "lon": 21.7976389,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1014447489,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w1088457382",
+      "name": "OMV",
+      "brand": "OMV",
+      "address": "Prešovská 2761/9 Ľubotice",
+      "lat": 49.0045975,
+      "lon": 21.265686,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1088457382,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w1093959426",
+      "name": "OSM way/1093959426",
+      "brand": null,
+      "address": null,
+      "lat": 49.0498454,
+      "lon": 21.9576881,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1093959426,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w1094245930",
+      "name": "BAREL",
+      "brand": "BAREL",
+      "address": null,
+      "lat": 49.024234,
+      "lon": 21.2327819,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": "24/7",
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1094245930,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm-w1163462759",
+      "name": "LPG Čerpacia stanica S3 GAS - Tomegas",
+      "brand": "LPG Čerpacia stanica S3 GAS - Tomegas",
+      "address": null,
+      "lat": 49.0091204,
+      "lon": 21.2209084,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1163462759,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w1168810278",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 49.002311,
+      "lon": 21.2689046,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1168810278,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w1183047767",
+      "name": "Shell",
+      "brand": "Shell",
+      "address": null,
+      "lat": 49.0022406,
+      "lon": 21.2687091,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1183047767,
+        "opening_hours": null
+      }
+    },
+    {
+      "id": "osm-w1200591578",
+      "name": "Slovnaft",
+      "brand": "Slovnaft",
+      "address": null,
+      "lat": 49.0290177,
+      "lon": 21.2198468,
+      "region": null,
+      "sources": [
+        "osm"
+      ],
+      "hours": null,
+      "hoursSummary": null,
+      "labels": [],
+      "openNow": null,
+      "prices": {},
+      "osm": {
+        "type": "way",
+        "id": 1200591578,
+        "opening_hours": null
+      }
+    }
+  ]
+}

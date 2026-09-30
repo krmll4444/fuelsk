@@ -1,0 +1,2001 @@
+{
+  "generatedAt": "2026-09-30T07:40:52.644Z",
+  "source": "https://www.benzin.sk/obr/logo/",
+  "count": 118,
+  "byId": {
+    "2": {
+      "id": 2,
+      "name": "Shell",
+      "selectName": "Shell",
+      "file": "logo_shell.png",
+      "banner": "logo_shell.png",
+      "icon": "icon-2.gif"
+    },
+    "3": {
+      "id": 3,
+      "name": "Metro",
+      "selectName": "Metro",
+      "file": "logo_metro.gif",
+      "banner": "logo_metro.gif",
+      "icon": "icon-3.gif"
+    },
+    "4": {
+      "id": 4,
+      "name": "Hypernova",
+      "selectName": "Hypernova",
+      "file": "logo_hypernova.gif",
+      "banner": "logo_hypernova.gif",
+      "icon": "icon-4.gif"
+    },
+    "5": {
+      "id": 5,
+      "name": "Tesco",
+      "selectName": "Tesco",
+      "file": "logo_tesco.gif",
+      "banner": "logo_tesco.gif",
+      "icon": "icon-5.gif"
+    },
+    "6": {
+      "id": 6,
+      "name": "Slovnaft",
+      "selectName": "Slovnaft",
+      "file": "logo_slovnaft.png",
+      "banner": "logo_slovnaft.png",
+      "icon": "icon-6.gif"
+    },
+    "7": {
+      "id": 7,
+      "name": "LUKOIL",
+      "selectName": "LUKOIL",
+      "file": "icon-7.gif",
+      "banner": null,
+      "icon": "icon-7.gif"
+    },
+    "8": {
+      "id": 8,
+      "name": "Agip",
+      "selectName": "Agip",
+      "file": "icon-8.gif",
+      "banner": null,
+      "icon": "icon-8.gif"
+    },
+    "9": {
+      "id": 9,
+      "name": "OMV",
+      "selectName": "OMV",
+      "file": "logo_omv.gif",
+      "banner": "logo_omv.gif",
+      "icon": "icon-9.gif"
+    },
+    "10": {
+      "id": 10,
+      "name": "Šajgaloil",
+      "selectName": "Šajgaloil",
+      "file": "logo_sajgaloil.gif",
+      "banner": "logo_sajgaloil.gif",
+      "icon": "icon-10.gif"
+    },
+    "11": {
+      "id": 11,
+      "name": "Jurki",
+      "selectName": "Jurki",
+      "file": "logo_jurki.gif",
+      "banner": "logo_jurki.gif",
+      "icon": "icon-11.gif"
+    },
+    "12": {
+      "id": 12,
+      "name": "Batax",
+      "selectName": "Batax",
+      "file": "logo_batax.gif",
+      "banner": "logo_batax.gif",
+      "icon": "icon-12.gif"
+    },
+    "14": {
+      "id": 14,
+      "name": "Esso",
+      "selectName": "Esso",
+      "file": "icon-14.gif",
+      "banner": null,
+      "icon": "icon-14.gif"
+    },
+    "15": {
+      "id": 15,
+      "name": "Oktan",
+      "selectName": "Oktan",
+      "file": "logo_oktan.gif",
+      "banner": "logo_oktan.gif",
+      "icon": "icon-15.gif"
+    },
+    "20": {
+      "id": 20,
+      "name": "Benzina",
+      "selectName": "Benzina",
+      "file": "logo_benzina.gif",
+      "banner": "logo_benzina.gif",
+      "icon": "icon-20.gif"
+    },
+    "21": {
+      "id": 21,
+      "name": "Avanti",
+      "selectName": "Avanti",
+      "file": "logo_avanti.gif",
+      "banner": "logo_avanti.gif",
+      "icon": "icon-21.gif"
+    },
+    "22": {
+      "id": 22,
+      "name": "ViOn",
+      "selectName": "ViOn",
+      "file": "logo_vion.gif",
+      "banner": "logo_vion.gif",
+      "icon": "icon-22.gif"
+    },
+    "23": {
+      "id": 23,
+      "name": "RALDES",
+      "selectName": "RALDES",
+      "file": "icon-23.gif",
+      "banner": null,
+      "icon": "icon-23.gif"
+    },
+    "24": {
+      "id": 24,
+      "name": "Spectrum",
+      "selectName": "Spectrum",
+      "file": "logo_spectrum.gif",
+      "banner": "logo_spectrum.gif",
+      "icon": "icon-24.gif"
+    },
+    "25": {
+      "id": 25,
+      "name": "G & G",
+      "selectName": "G & G",
+      "file": "logo_gag.gif",
+      "banner": "logo_gag.gif",
+      "icon": "icon-25.gif"
+    },
+    "26": {
+      "id": 26,
+      "name": "L-PETROL",
+      "selectName": "L-PETROL",
+      "file": "icon-26.gif",
+      "banner": null,
+      "icon": "icon-26.gif"
+    },
+    "27": {
+      "id": 27,
+      "name": "F.Petrol",
+      "selectName": "F.Petrol",
+      "file": "logo_fpetrol.gif",
+      "banner": "logo_fpetrol.gif",
+      "icon": "icon-27.gif"
+    },
+    "28": {
+      "id": 28,
+      "name": "REAL-K",
+      "selectName": "REAL-K",
+      "file": "logo_realk.gif",
+      "banner": "logo_realk.gif",
+      "icon": "icon-28.gif"
+    },
+    "29": {
+      "id": 29,
+      "name": "GAS",
+      "selectName": "GAS",
+      "file": "logo_gas.gif",
+      "banner": "logo_gas.gif",
+      "icon": "icon-29.gif"
+    },
+    "30": {
+      "id": 30,
+      "name": "OIL JPM",
+      "selectName": "OIL JPM",
+      "file": "logo_oiljpm.gif",
+      "banner": "logo_oiljpm.gif",
+      "icon": "icon-30.gif"
+    },
+    "31": {
+      "id": 31,
+      "name": "Hoffer",
+      "selectName": "Hoffer",
+      "file": "logo_hoffer.gif",
+      "banner": "logo_hoffer.gif",
+      "icon": "icon-31.gif"
+    },
+    "32": {
+      "id": 32,
+      "name": "Extrabenz",
+      "selectName": "Extrabenz",
+      "file": "logo_extrabenz.gif",
+      "banner": "logo_extrabenz.gif",
+      "icon": "icon-32.gif"
+    },
+    "33": {
+      "id": 33,
+      "name": "Carrefour",
+      "selectName": "Carrefour",
+      "file": "icon-33.gif",
+      "banner": null,
+      "icon": "icon-33.gif"
+    },
+    "34": {
+      "id": 34,
+      "name": "Jopi Trade",
+      "selectName": "Jopi Trade",
+      "file": "logo_jopitrade.gif",
+      "banner": "logo_jopitrade.gif",
+      "icon": "icon-34.gif"
+    },
+    "35": {
+      "id": 35,
+      "name": "FuelShop",
+      "selectName": "FuelShop",
+      "file": "logo_fuelshop.gif",
+      "banner": "logo_fuelshop.gif",
+      "icon": "icon-35.gif"
+    },
+    "36": {
+      "id": 36,
+      "name": "Mojan",
+      "selectName": "Mojan",
+      "file": "icon-36.gif",
+      "banner": null,
+      "icon": "icon-36.gif"
+    },
+    "37": {
+      "id": 37,
+      "name": "RAL",
+      "selectName": "RAL",
+      "file": "logo_ral.gif",
+      "banner": "logo_ral.gif",
+      "icon": "icon-37.gif"
+    },
+    "38": {
+      "id": 38,
+      "name": "Zempres",
+      "selectName": "Zempres",
+      "file": "logo_zempres.gif",
+      "banner": "logo_zempres.gif",
+      "icon": "icon-38.gif"
+    },
+    "39": {
+      "id": 39,
+      "name": "TIR Petroleum",
+      "selectName": "TIR Petroleum",
+      "file": "logo_tirpetroleum.gif",
+      "banner": "logo_tirpetroleum.gif",
+      "icon": "icon-39.gif"
+    },
+    "40": {
+      "id": 40,
+      "name": "1.SPS",
+      "selectName": "1.SPS",
+      "file": "logo_1sps.gif",
+      "banner": "logo_1sps.gif",
+      "icon": "icon-40.gif"
+    },
+    "41": {
+      "id": 41,
+      "name": "Most",
+      "selectName": "Most",
+      "file": "icon-41.gif",
+      "banner": null,
+      "icon": "icon-41.gif"
+    },
+    "42": {
+      "id": 42,
+      "name": "Benzinol",
+      "selectName": "Benzinol",
+      "file": "logo_benzinol.gif",
+      "banner": "logo_benzinol.gif",
+      "icon": "icon-42.gif"
+    },
+    "43": {
+      "id": 43,
+      "name": "Benzimol",
+      "selectName": "Benzimol",
+      "file": "logo_benzimol.gif",
+      "banner": "logo_benzimol.gif",
+      "icon": "icon-43.gif"
+    },
+    "44": {
+      "id": 44,
+      "name": "Breda",
+      "selectName": "Breda",
+      "file": "logo_breda.gif",
+      "banner": "logo_breda.gif",
+      "icon": "icon-44.gif"
+    },
+    "45": {
+      "id": 45,
+      "name": "Erba",
+      "selectName": "Erba",
+      "file": "icon-45.gif",
+      "banner": null,
+      "icon": "icon-45.gif"
+    },
+    "46": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "47": {
+      "id": 47,
+      "name": "SAS - Sukola",
+      "selectName": "SAS - Sukola",
+      "file": "logo_sukola.gif",
+      "banner": "logo_sukola.gif",
+      "icon": "icon-47.gif"
+    },
+    "48": {
+      "id": 48,
+      "name": "TAM Autohof",
+      "selectName": "TAM Autohof",
+      "file": "logo_tamautohof.gif",
+      "banner": "logo_tamautohof.gif",
+      "icon": "icon-48.gif"
+    },
+    "49": {
+      "id": 49,
+      "name": "REAL-HM",
+      "selectName": "REAL-HM",
+      "file": "logo_realhm.gif",
+      "banner": "logo_realhm.gif",
+      "icon": "icon-49.gif"
+    },
+    "50": {
+      "id": 50,
+      "name": "Tank & Go",
+      "selectName": "Tank & Go",
+      "file": "logo_tankago.gif",
+      "banner": "logo_tankago.gif",
+      "icon": "icon-50.gif"
+    },
+    "51": {
+      "id": 51,
+      "name": "GULF",
+      "selectName": "GULF",
+      "file": "logo_gulf.gif",
+      "banner": "logo_gulf.gif",
+      "icon": "icon-51.gif"
+    },
+    "52": {
+      "id": 52,
+      "name": "PROBUGAS",
+      "selectName": "PROBUGAS",
+      "file": "logo_probugas.gif",
+      "banner": "logo_probugas.gif",
+      "icon": "icon-52.gif"
+    },
+    "53": {
+      "id": 53,
+      "name": "ATIS & JOPI",
+      "selectName": "ATIS & JOPI",
+      "file": "logo_atisajopi.gif",
+      "banner": "logo_atisajopi.gif",
+      "icon": "icon-53.gif"
+    },
+    "54": {
+      "id": 54,
+      "name": "Nakona",
+      "selectName": "Nakona",
+      "file": "logo_nakona.gif",
+      "banner": "logo_nakona.gif",
+      "icon": "icon-54.gif"
+    },
+    "55": {
+      "id": 55,
+      "name": "Progress trading",
+      "selectName": "Progress trading",
+      "file": "logo_progresstrading.gif",
+      "banner": "logo_progresstrading.gif",
+      "icon": "icon-55.gif"
+    },
+    "56": {
+      "id": 56,
+      "name": "Kinekus",
+      "selectName": "Kinekus",
+      "file": "logo_kinekus.gif",
+      "banner": "logo_kinekus.gif",
+      "icon": "icon-56.gif"
+    },
+    "57": {
+      "id": 57,
+      "name": "International Transport",
+      "selectName": "International Transport",
+      "file": "logo_internationaltransport.gif",
+      "banner": "logo_internationaltransport.gif",
+      "icon": "icon-57.gif"
+    },
+    "58": {
+      "id": 58,
+      "name": "RB",
+      "selectName": "RB",
+      "file": "logo_rb.gif",
+      "banner": "logo_rb.gif",
+      "icon": "icon-58.gif"
+    },
+    "59": {
+      "id": 59,
+      "name": "Sloval Invest",
+      "selectName": "Sloval Invest",
+      "file": "logo_slovalinvest.gif",
+      "banner": "logo_slovalinvest.gif",
+      "icon": "icon-59.gif"
+    },
+    "60": {
+      "id": 60,
+      "name": "VOMS",
+      "selectName": "VOMS",
+      "file": "logo_voms.gif",
+      "banner": "logo_voms.gif",
+      "icon": "icon-60.gif"
+    },
+    "61": {
+      "id": 61,
+      "name": "Atair",
+      "selectName": "Atair",
+      "file": "logo_atair.gif",
+      "banner": "logo_atair.gif",
+      "icon": "icon-61.gif"
+    },
+    "62": {
+      "id": 62,
+      "name": "OIL OÁZA",
+      "selectName": "OIL OÁZA",
+      "file": "logo_oiloaza.gif",
+      "banner": "logo_oiloaza.gif",
+      "icon": "icon-62.gif"
+    },
+    "63": {
+      "id": 63,
+      "name": "Forte",
+      "selectName": "Forte",
+      "file": "logo_forte.gif",
+      "banner": "logo_forte.gif",
+      "icon": "icon-63.gif"
+    },
+    "64": {
+      "id": 64,
+      "name": "MATP",
+      "selectName": "MATP",
+      "file": "logo_matp.gif",
+      "banner": "logo_matp.gif",
+      "icon": "icon-64.gif"
+    },
+    "65": {
+      "id": 65,
+      "name": "APA",
+      "selectName": "APA",
+      "file": "logo_apa.gif",
+      "banner": "logo_apa.gif",
+      "icon": "icon-65.gif"
+    },
+    "66": {
+      "id": 66,
+      "name": "OSMEK",
+      "selectName": "OSMEK",
+      "file": "logo_osmek.gif",
+      "banner": "logo_osmek.gif",
+      "icon": "icon-66.gif"
+    },
+    "67": {
+      "id": 67,
+      "name": "Zcol",
+      "selectName": "Zcol",
+      "file": "icon-67.gif",
+      "banner": null,
+      "icon": "icon-67.gif"
+    },
+    "68": {
+      "id": 68,
+      "name": "Tanker",
+      "selectName": "Tanker",
+      "file": "logo_tanker.gif",
+      "banner": "logo_tanker.gif",
+      "icon": "icon-68.gif"
+    },
+    "69": {
+      "id": 69,
+      "name": "Sokol",
+      "selectName": "Sokol",
+      "file": "icon-69.gif",
+      "banner": null,
+      "icon": "icon-69.gif"
+    },
+    "70": {
+      "id": 70,
+      "name": "DaliOil",
+      "selectName": "DaliOil",
+      "file": "logo_dalioil.gif",
+      "banner": "logo_dalioil.gif",
+      "icon": "icon-70.gif"
+    },
+    "71": {
+      "id": 71,
+      "name": "STAVA - MA",
+      "selectName": "STAVA - MA",
+      "file": "logo_stava-ma.gif",
+      "banner": "logo_stava-ma.gif",
+      "icon": "icon-71.gif"
+    },
+    "72": {
+      "id": 72,
+      "name": "MKV",
+      "selectName": "MKV",
+      "file": "icon-72.gif",
+      "banner": null,
+      "icon": "icon-72.gif"
+    },
+    "73": {
+      "id": 73,
+      "name": "Promont",
+      "selectName": "Promont",
+      "file": "logo_promont.gif",
+      "banner": "logo_promont.gif",
+      "icon": "icon-73.gif"
+    },
+    "74": {
+      "id": 74,
+      "name": "RD TRANS",
+      "selectName": "RD TRANS",
+      "file": "logo_rdtrans.gif",
+      "banner": "logo_rdtrans.gif",
+      "icon": "icon-74.gif"
+    },
+    "75": {
+      "id": 75,
+      "name": "Benaf",
+      "selectName": "Benaf",
+      "file": "logo_benaf.gif",
+      "banner": "logo_benaf.gif",
+      "icon": "icon-75.gif"
+    },
+    "76": {
+      "id": 76,
+      "name": "Tankujeme",
+      "selectName": "Tankujeme",
+      "file": "icon-76.gif",
+      "banner": null,
+      "icon": "icon-76.gif"
+    },
+    "77": {
+      "id": 77,
+      "name": "BALTYRE",
+      "selectName": "BALTYRE",
+      "file": "logo_baltyre.gif",
+      "banner": "logo_baltyre.gif",
+      "icon": "icon-77.gif"
+    },
+    "78": {
+      "id": 78,
+      "name": "Petrolka",
+      "selectName": "Petrolka",
+      "file": "icon-78.gif",
+      "banner": null,
+      "icon": "icon-78.gif"
+    },
+    "79": {
+      "id": 79,
+      "name": "Sadka",
+      "selectName": "Sadka",
+      "file": "logo_sadka.gif",
+      "banner": "logo_sadka.gif",
+      "icon": "icon-79.gif"
+    },
+    "80": {
+      "id": 80,
+      "name": "Alimenta Natur",
+      "selectName": "Alimenta Natur",
+      "file": "icon-80.gif",
+      "banner": null,
+      "icon": "icon-80.gif"
+    },
+    "81": {
+      "id": 81,
+      "name": "Molčanová",
+      "selectName": "Molčanová",
+      "file": "logo_molcanova.gif",
+      "banner": "logo_molcanova.gif",
+      "icon": "icon-81.gif"
+    },
+    "82": {
+      "id": 82,
+      "name": "DIESEL AGV",
+      "selectName": "DIESEL AGV",
+      "file": "logo_dieselagv.gif",
+      "banner": "logo_dieselagv.gif",
+      "icon": "icon-82.gif"
+    },
+    "83": {
+      "id": 83,
+      "name": "Optima - KDK",
+      "selectName": "Optima - KDK",
+      "file": "logo_optimakdk.gif",
+      "banner": "logo_optimakdk.gif",
+      "icon": "icon-83.gif"
+    },
+    "84": {
+      "id": 84,
+      "name": "SAD BB",
+      "selectName": "SAD BB",
+      "file": "logo_sadbb.gif",
+      "banner": "logo_sadbb.gif",
+      "icon": "icon-84.gif"
+    },
+    "85": {
+      "id": 85,
+      "name": "TOMEGAS",
+      "selectName": "TOMEGAS",
+      "file": "logo_tomegas.gif",
+      "banner": "logo_tomegas.gif",
+      "icon": "icon-85.gif"
+    },
+    "86": {
+      "id": 86,
+      "name": "Lemont",
+      "selectName": "Lemont",
+      "file": "icon-86.gif",
+      "banner": null,
+      "icon": "icon-86.gif"
+    },
+    "87": {
+      "id": 87,
+      "name": "Euronova",
+      "selectName": "Euronova",
+      "file": "icon-87.gif",
+      "banner": null,
+      "icon": "icon-87.gif"
+    },
+    "88": {
+      "id": 88,
+      "name": "Diesel Trans",
+      "selectName": "Diesel Trans",
+      "file": "logo_dieseltrans.gif",
+      "banner": "logo_dieseltrans.gif",
+      "icon": "icon-88.gif"
+    },
+    "89": {
+      "id": 89,
+      "name": "KB Gas",
+      "selectName": "KB Gas",
+      "file": "icon-89.gif",
+      "banner": null,
+      "icon": "icon-89.gif"
+    },
+    "90": {
+      "id": 90,
+      "name": "TEma",
+      "selectName": "TEma",
+      "file": "logo_tema.gif",
+      "banner": "logo_tema.gif",
+      "icon": "icon-90.gif"
+    },
+    "91": {
+      "id": 91,
+      "name": "LinOil",
+      "selectName": "LinOil",
+      "file": "icon-91.gif",
+      "banner": null,
+      "icon": "icon-91.gif"
+    },
+    "92": {
+      "id": 92,
+      "name": "EUROIL",
+      "selectName": "EUROIL",
+      "file": "icon-92.gif",
+      "banner": null,
+      "icon": "icon-92.gif"
+    },
+    "93": {
+      "id": 93,
+      "name": "Motorest",
+      "selectName": "Motorest",
+      "file": "icon-93.gif",
+      "banner": null,
+      "icon": "icon-93.gif"
+    },
+    "94": {
+      "id": 94,
+      "name": "JORSS",
+      "selectName": "JORSS",
+      "file": "logo_jorss.gif",
+      "banner": "logo_jorss.gif",
+      "icon": "icon-94.gif"
+    },
+    "98": {
+      "id": 98,
+      "name": "3H",
+      "selectName": "3H",
+      "file": "logo_3H.gif",
+      "banner": "logo_3H.gif",
+      "icon": "icon-98.gif"
+    },
+    "102": {
+      "id": 102,
+      "name": "Metalex",
+      "selectName": "Metalex",
+      "file": "icon-102.gif",
+      "banner": null,
+      "icon": "icon-102.gif"
+    },
+    "104": {
+      "id": 104,
+      "name": "Bennet Oil",
+      "selectName": "Bennet Oil",
+      "file": "logo_bennetoil.gif",
+      "banner": "logo_bennetoil.gif",
+      "icon": "icon-104.gif"
+    },
+    "109": {
+      "id": 109,
+      "name": "LIGNUM",
+      "selectName": "LIGNUM",
+      "file": "logo_lignum.gif",
+      "banner": "logo_lignum.gif",
+      "icon": "icon-109.gif"
+    },
+    "110": {
+      "id": 110,
+      "name": "Zagiba OIL",
+      "selectName": "Zagiba OIL",
+      "file": "logo_zagiba.gif",
+      "banner": "logo_zagiba.gif",
+      "icon": null
+    },
+    "113": {
+      "id": 113,
+      "name": "JR Autodoprava",
+      "selectName": "JR Autodoprava",
+      "file": "logo_jr.gif",
+      "banner": "logo_jr.gif",
+      "icon": "icon-113.gif"
+    },
+    "115": {
+      "id": 115,
+      "name": "Score",
+      "selectName": "Score",
+      "file": "logo_score.gif",
+      "banner": "logo_score.gif",
+      "icon": null
+    },
+    "116": {
+      "id": 116,
+      "name": "AUTO ROTOS",
+      "selectName": "AUTO ROTOS",
+      "file": "logo_autorotos.gif",
+      "banner": "logo_autorotos.gif",
+      "icon": "icon-116.gif"
+    },
+    "117": {
+      "id": 117,
+      "name": "Empark",
+      "selectName": "Empark",
+      "file": "logo_empark.gif",
+      "banner": "logo_empark.gif",
+      "icon": "icon-117.gif"
+    },
+    "118": {
+      "id": 118,
+      "name": "JS Autošport",
+      "selectName": "JS Autošport",
+      "file": "logo_autosport.gif",
+      "banner": "logo_autosport.gif",
+      "icon": "icon-118.gif"
+    },
+    "119": {
+      "id": 119,
+      "name": "Šmal",
+      "selectName": "Šmal",
+      "file": "logo_smal.gif",
+      "banner": "logo_smal.gif",
+      "icon": null
+    },
+    "121": {
+      "id": 121,
+      "name": "Oliva",
+      "selectName": "Oliva",
+      "file": "logo_oliva.gif",
+      "banner": "logo_oliva.gif",
+      "icon": "icon-121.gif"
+    },
+    "122": {
+      "id": 122,
+      "name": "POWER OIL",
+      "selectName": "POWER OIL",
+      "file": "logo_poweroil.gif",
+      "banner": "logo_poweroil.gif",
+      "icon": null
+    },
+    "126": {
+      "id": 126,
+      "name": "Alchem",
+      "selectName": "Alchem",
+      "file": "logo_alchem.gif",
+      "banner": "logo_alchem.gif",
+      "icon": "icon-126.gif"
+    },
+    "127": {
+      "id": 127,
+      "name": "Fonte",
+      "selectName": "Fonte",
+      "file": "logo_fonte.gif",
+      "banner": "logo_fonte.gif",
+      "icon": "icon-127.gif"
+    },
+    "129": {
+      "id": 129,
+      "name": "Solar 2009",
+      "selectName": "Solar 2009",
+      "file": "logo_solar2009.gif",
+      "banner": "logo_solar2009.gif",
+      "icon": "icon-129.gif"
+    },
+    "133": {
+      "id": 133,
+      "name": "Groise",
+      "selectName": "Groise",
+      "file": "logo_groise.gif",
+      "banner": "logo_groise.gif",
+      "icon": "icon-133.gif"
+    },
+    "136": {
+      "id": 136,
+      "name": "tim€",
+      "selectName": "tim€",
+      "file": "logo_timE.gif",
+      "banner": "logo_timE.gif",
+      "icon": "icon-136.gif"
+    },
+    "138": {
+      "id": 138,
+      "name": "Alpex",
+      "selectName": "Alpex",
+      "file": "logo_alpex.gif",
+      "banner": "logo_alpex.gif",
+      "icon": "icon-138.gif"
+    },
+    "139": {
+      "id": 139,
+      "name": "SPP CNG",
+      "selectName": "SPP CNG",
+      "file": "logo_sppcng.gif",
+      "banner": "logo_sppcng.gif",
+      "icon": "icon-139.gif"
+    },
+    "140": {
+      "id": 140,
+      "name": "E58",
+      "selectName": "E58",
+      "file": "icon-140.gif",
+      "banner": null,
+      "icon": "icon-140.gif"
+    },
+    "142": {
+      "id": 142,
+      "name": "PT GAS",
+      "selectName": "PT GAS",
+      "file": "logo_ptgas.gif",
+      "banner": "logo_ptgas.gif",
+      "icon": "icon-142.gif"
+    },
+    "143": {
+      "id": 143,
+      "name": "AVA Jett",
+      "selectName": "AVA Jett",
+      "file": "logo_avajett.gif",
+      "banner": "logo_avajett.gif",
+      "icon": "icon-143.gif"
+    },
+    "145": {
+      "id": 145,
+      "name": "Tankpetrol",
+      "selectName": "Tankpetrol",
+      "file": "icon-145.gif",
+      "banner": null,
+      "icon": "icon-145.gif"
+    },
+    "149": {
+      "id": 149,
+      "name": "Eurofuel",
+      "selectName": "Eurofuel",
+      "file": "logo_eurofuel.gif",
+      "banner": "logo_eurofuel.gif",
+      "icon": "icon-149.gif"
+    },
+    "151": {
+      "id": 151,
+      "name": "PUMPA Nováky",
+      "selectName": "PUMPA Nováky",
+      "file": "logo_pumpa_novaky.gif",
+      "banner": "logo_pumpa_novaky.gif",
+      "icon": "icon-151.gif"
+    },
+    "152": {
+      "id": 152,
+      "name": "BATHORY OIL",
+      "selectName": "BATHORY OIL",
+      "file": "logo_bathoryoil.gif",
+      "banner": "logo_bathoryoil.gif",
+      "icon": "icon-152.gif"
+    },
+    "153": {
+      "id": 153,
+      "name": "STANOIL",
+      "selectName": "STANOIL",
+      "file": "logo_stanoil.gif",
+      "banner": "logo_stanoil.gif",
+      "icon": "icon-153.gif"
+    },
+    "154": {
+      "id": 154,
+      "name": "Orlen",
+      "selectName": "Orlen",
+      "file": "logo_orlen.gif",
+      "banner": "logo_orlen.gif",
+      "icon": "icon-154.gif"
+    },
+    "155": {
+      "id": 155,
+      "name": "AK",
+      "selectName": "AK",
+      "file": "logo_ak.gif",
+      "banner": "logo_ak.gif",
+      "icon": null
+    }
+  },
+  "byKey": {
+    "1sps": {
+      "id": 40,
+      "name": "1.SPS",
+      "selectName": "1.SPS",
+      "file": "logo_1sps.gif",
+      "banner": "logo_1sps.gif",
+      "icon": "icon-40.gif"
+    },
+    "3h": {
+      "id": 98,
+      "name": "3H",
+      "selectName": "3H",
+      "file": "logo_3H.gif",
+      "banner": "logo_3H.gif",
+      "icon": "icon-98.gif"
+    },
+    "agip": {
+      "id": 8,
+      "name": "Agip",
+      "selectName": "Agip",
+      "file": "icon-8.gif",
+      "banner": null,
+      "icon": "icon-8.gif"
+    },
+    "ak": {
+      "id": 155,
+      "name": "AK",
+      "selectName": "AK",
+      "file": "logo_ak.gif",
+      "banner": "logo_ak.gif",
+      "icon": null
+    },
+    "alchem": {
+      "id": 126,
+      "name": "Alchem",
+      "selectName": "Alchem",
+      "file": "logo_alchem.gif",
+      "banner": "logo_alchem.gif",
+      "icon": "icon-126.gif"
+    },
+    "alimentanatur": {
+      "id": 80,
+      "name": "Alimenta Natur",
+      "selectName": "Alimenta Natur",
+      "file": "icon-80.gif",
+      "banner": null,
+      "icon": "icon-80.gif"
+    },
+    "alpex": {
+      "id": 138,
+      "name": "Alpex",
+      "selectName": "Alpex",
+      "file": "logo_alpex.gif",
+      "banner": "logo_alpex.gif",
+      "icon": "icon-138.gif"
+    },
+    "apa": {
+      "id": 65,
+      "name": "APA",
+      "selectName": "APA",
+      "file": "logo_apa.gif",
+      "banner": "logo_apa.gif",
+      "icon": "icon-65.gif"
+    },
+    "atair": {
+      "id": 61,
+      "name": "Atair",
+      "selectName": "Atair",
+      "file": "logo_atair.gif",
+      "banner": "logo_atair.gif",
+      "icon": "icon-61.gif"
+    },
+    "atisjopi": {
+      "id": 53,
+      "name": "ATIS & JOPI",
+      "selectName": "ATIS & JOPI",
+      "file": "logo_atisajopi.gif",
+      "banner": "logo_atisajopi.gif",
+      "icon": "icon-53.gif"
+    },
+    "autorotos": {
+      "id": 116,
+      "name": "AUTO ROTOS",
+      "selectName": "AUTO ROTOS",
+      "file": "logo_autorotos.gif",
+      "banner": "logo_autorotos.gif",
+      "icon": "icon-116.gif"
+    },
+    "avajett": {
+      "id": 143,
+      "name": "AVA Jett",
+      "selectName": "AVA Jett",
+      "file": "logo_avajett.gif",
+      "banner": "logo_avajett.gif",
+      "icon": "icon-143.gif"
+    },
+    "avanti": {
+      "id": 21,
+      "name": "Avanti",
+      "selectName": "Avanti",
+      "file": "logo_avanti.gif",
+      "banner": "logo_avanti.gif",
+      "icon": "icon-21.gif"
+    },
+    "baltyre": {
+      "id": 77,
+      "name": "BALTYRE",
+      "selectName": "BALTYRE",
+      "file": "logo_baltyre.gif",
+      "banner": "logo_baltyre.gif",
+      "icon": "icon-77.gif"
+    },
+    "batax": {
+      "id": 12,
+      "name": "Batax",
+      "selectName": "Batax",
+      "file": "logo_batax.gif",
+      "banner": "logo_batax.gif",
+      "icon": "icon-12.gif"
+    },
+    "bathoryoil": {
+      "id": 152,
+      "name": "BATHORY OIL",
+      "selectName": "BATHORY OIL",
+      "file": "logo_bathoryoil.gif",
+      "banner": "logo_bathoryoil.gif",
+      "icon": "icon-152.gif"
+    },
+    "benaf": {
+      "id": 75,
+      "name": "Benaf",
+      "selectName": "Benaf",
+      "file": "logo_benaf.gif",
+      "banner": "logo_benaf.gif",
+      "icon": "icon-75.gif"
+    },
+    "bennetoil": {
+      "id": 104,
+      "name": "Bennet Oil",
+      "selectName": "Bennet Oil",
+      "file": "logo_bennetoil.gif",
+      "banner": "logo_bennetoil.gif",
+      "icon": "icon-104.gif"
+    },
+    "benzimol": {
+      "id": 43,
+      "name": "Benzimol",
+      "selectName": "Benzimol",
+      "file": "logo_benzimol.gif",
+      "banner": "logo_benzimol.gif",
+      "icon": "icon-43.gif"
+    },
+    "benzina": {
+      "id": 20,
+      "name": "Benzina",
+      "selectName": "Benzina",
+      "file": "logo_benzina.gif",
+      "banner": "logo_benzina.gif",
+      "icon": "icon-20.gif"
+    },
+    "benzinol": {
+      "id": 42,
+      "name": "Benzinol",
+      "selectName": "Benzinol",
+      "file": "logo_benzinol.gif",
+      "banner": "logo_benzinol.gif",
+      "icon": "icon-42.gif"
+    },
+    "breda": {
+      "id": 44,
+      "name": "Breda",
+      "selectName": "Breda",
+      "file": "logo_breda.gif",
+      "banner": "logo_breda.gif",
+      "icon": "icon-44.gif"
+    },
+    "carrefour": {
+      "id": 33,
+      "name": "Carrefour",
+      "selectName": "Carrefour",
+      "file": "icon-33.gif",
+      "banner": null,
+      "icon": "icon-33.gif"
+    },
+    "dalioil": {
+      "id": 70,
+      "name": "DaliOil",
+      "selectName": "DaliOil",
+      "file": "logo_dalioil.gif",
+      "banner": "logo_dalioil.gif",
+      "icon": "icon-70.gif"
+    },
+    "dieselagv": {
+      "id": 82,
+      "name": "DIESEL AGV",
+      "selectName": "DIESEL AGV",
+      "file": "logo_dieselagv.gif",
+      "banner": "logo_dieselagv.gif",
+      "icon": "icon-82.gif"
+    },
+    "dieseltrans": {
+      "id": 88,
+      "name": "Diesel Trans",
+      "selectName": "Diesel Trans",
+      "file": "logo_dieseltrans.gif",
+      "banner": "logo_dieseltrans.gif",
+      "icon": "icon-88.gif"
+    },
+    "e58": {
+      "id": 140,
+      "name": "E58",
+      "selectName": "E58",
+      "file": "icon-140.gif",
+      "banner": null,
+      "icon": "icon-140.gif"
+    },
+    "empark": {
+      "id": 117,
+      "name": "Empark",
+      "selectName": "Empark",
+      "file": "logo_empark.gif",
+      "banner": "logo_empark.gif",
+      "icon": "icon-117.gif"
+    },
+    "erba": {
+      "id": 45,
+      "name": "Erba",
+      "selectName": "Erba",
+      "file": "icon-45.gif",
+      "banner": null,
+      "icon": "icon-45.gif"
+    },
+    "esso": {
+      "id": 14,
+      "name": "Esso",
+      "selectName": "Esso",
+      "file": "icon-14.gif",
+      "banner": null,
+      "icon": "icon-14.gif"
+    },
+    "eurofuel": {
+      "id": 149,
+      "name": "Eurofuel",
+      "selectName": "Eurofuel",
+      "file": "logo_eurofuel.gif",
+      "banner": "logo_eurofuel.gif",
+      "icon": "icon-149.gif"
+    },
+    "euroil": {
+      "id": 92,
+      "name": "EUROIL",
+      "selectName": "EUROIL",
+      "file": "icon-92.gif",
+      "banner": null,
+      "icon": "icon-92.gif"
+    },
+    "euronova": {
+      "id": 87,
+      "name": "Euronova",
+      "selectName": "Euronova",
+      "file": "icon-87.gif",
+      "banner": null,
+      "icon": "icon-87.gif"
+    },
+    "extrabenz": {
+      "id": 32,
+      "name": "Extrabenz",
+      "selectName": "Extrabenz",
+      "file": "logo_extrabenz.gif",
+      "banner": "logo_extrabenz.gif",
+      "icon": "icon-32.gif"
+    },
+    "fpetrol": {
+      "id": 27,
+      "name": "F.Petrol",
+      "selectName": "F.Petrol",
+      "file": "logo_fpetrol.gif",
+      "banner": "logo_fpetrol.gif",
+      "icon": "icon-27.gif"
+    },
+    "flaga": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "fonte": {
+      "id": 127,
+      "name": "Fonte",
+      "selectName": "Fonte",
+      "file": "logo_fonte.gif",
+      "banner": "logo_fonte.gif",
+      "icon": "icon-127.gif"
+    },
+    "forte": {
+      "id": 63,
+      "name": "Forte",
+      "selectName": "Forte",
+      "file": "logo_forte.gif",
+      "banner": "logo_forte.gif",
+      "icon": "icon-63.gif"
+    },
+    "fuelshop": {
+      "id": 35,
+      "name": "FuelShop",
+      "selectName": "FuelShop",
+      "file": "logo_fuelshop.gif",
+      "banner": "logo_fuelshop.gif",
+      "icon": "icon-35.gif"
+    },
+    "gg": {
+      "id": 25,
+      "name": "G & G",
+      "selectName": "G & G",
+      "file": "logo_gag.gif",
+      "banner": "logo_gag.gif",
+      "icon": "icon-25.gif"
+    },
+    "gas": {
+      "id": 29,
+      "name": "GAS",
+      "selectName": "GAS",
+      "file": "logo_gas.gif",
+      "banner": "logo_gas.gif",
+      "icon": "icon-29.gif"
+    },
+    "groise": {
+      "id": 133,
+      "name": "Groise",
+      "selectName": "Groise",
+      "file": "logo_groise.gif",
+      "banner": "logo_groise.gif",
+      "icon": "icon-133.gif"
+    },
+    "gulf": {
+      "id": 51,
+      "name": "GULF",
+      "selectName": "GULF",
+      "file": "logo_gulf.gif",
+      "banner": "logo_gulf.gif",
+      "icon": "icon-51.gif"
+    },
+    "hoffer": {
+      "id": 31,
+      "name": "Hoffer",
+      "selectName": "Hoffer",
+      "file": "logo_hoffer.gif",
+      "banner": "logo_hoffer.gif",
+      "icon": "icon-31.gif"
+    },
+    "hypernova": {
+      "id": 4,
+      "name": "Hypernova",
+      "selectName": "Hypernova",
+      "file": "logo_hypernova.gif",
+      "banner": "logo_hypernova.gif",
+      "icon": "icon-4.gif"
+    },
+    "internationaltransport": {
+      "id": 57,
+      "name": "International Transport",
+      "selectName": "International Transport",
+      "file": "logo_internationaltransport.gif",
+      "banner": "logo_internationaltransport.gif",
+      "icon": "icon-57.gif"
+    },
+    "jopitrade": {
+      "id": 34,
+      "name": "Jopi Trade",
+      "selectName": "Jopi Trade",
+      "file": "logo_jopitrade.gif",
+      "banner": "logo_jopitrade.gif",
+      "icon": "icon-34.gif"
+    },
+    "jorss": {
+      "id": 94,
+      "name": "JORSS",
+      "selectName": "JORSS",
+      "file": "logo_jorss.gif",
+      "banner": "logo_jorss.gif",
+      "icon": "icon-94.gif"
+    },
+    "jrautodoprava": {
+      "id": 113,
+      "name": "JR Autodoprava",
+      "selectName": "JR Autodoprava",
+      "file": "logo_jr.gif",
+      "banner": "logo_jr.gif",
+      "icon": "icon-113.gif"
+    },
+    "jsautosport": {
+      "id": 118,
+      "name": "JS Autošport",
+      "selectName": "JS Autošport",
+      "file": "logo_autosport.gif",
+      "banner": "logo_autosport.gif",
+      "icon": "icon-118.gif"
+    },
+    "jurki": {
+      "id": 11,
+      "name": "Jurki",
+      "selectName": "Jurki",
+      "file": "logo_jurki.gif",
+      "banner": "logo_jurki.gif",
+      "icon": "icon-11.gif"
+    },
+    "kbgas": {
+      "id": 89,
+      "name": "KB Gas",
+      "selectName": "KB Gas",
+      "file": "icon-89.gif",
+      "banner": null,
+      "icon": "icon-89.gif"
+    },
+    "kinekus": {
+      "id": 56,
+      "name": "Kinekus",
+      "selectName": "Kinekus",
+      "file": "logo_kinekus.gif",
+      "banner": "logo_kinekus.gif",
+      "icon": "icon-56.gif"
+    },
+    "lpetrol": {
+      "id": 26,
+      "name": "L-PETROL",
+      "selectName": "L-PETROL",
+      "file": "icon-26.gif",
+      "banner": null,
+      "icon": "icon-26.gif"
+    },
+    "lemont": {
+      "id": 86,
+      "name": "Lemont",
+      "selectName": "Lemont",
+      "file": "icon-86.gif",
+      "banner": null,
+      "icon": "icon-86.gif"
+    },
+    "lignum": {
+      "id": 109,
+      "name": "LIGNUM",
+      "selectName": "LIGNUM",
+      "file": "logo_lignum.gif",
+      "banner": "logo_lignum.gif",
+      "icon": "icon-109.gif"
+    },
+    "linoil": {
+      "id": 91,
+      "name": "LinOil",
+      "selectName": "LinOil",
+      "file": "icon-91.gif",
+      "banner": null,
+      "icon": "icon-91.gif"
+    },
+    "lukoil": {
+      "id": 7,
+      "name": "LUKOIL",
+      "selectName": "LUKOIL",
+      "file": "icon-7.gif",
+      "banner": null,
+      "icon": "icon-7.gif"
+    },
+    "matp": {
+      "id": 64,
+      "name": "MATP",
+      "selectName": "MATP",
+      "file": "logo_matp.gif",
+      "banner": "logo_matp.gif",
+      "icon": "icon-64.gif"
+    },
+    "metalex": {
+      "id": 102,
+      "name": "Metalex",
+      "selectName": "Metalex",
+      "file": "icon-102.gif",
+      "banner": null,
+      "icon": "icon-102.gif"
+    },
+    "metro": {
+      "id": 3,
+      "name": "Metro",
+      "selectName": "Metro",
+      "file": "logo_metro.gif",
+      "banner": "logo_metro.gif",
+      "icon": "icon-3.gif"
+    },
+    "mkv": {
+      "id": 72,
+      "name": "MKV",
+      "selectName": "MKV",
+      "file": "icon-72.gif",
+      "banner": null,
+      "icon": "icon-72.gif"
+    },
+    "mojan": {
+      "id": 36,
+      "name": "Mojan",
+      "selectName": "Mojan",
+      "file": "icon-36.gif",
+      "banner": null,
+      "icon": "icon-36.gif"
+    },
+    "molcanova": {
+      "id": 81,
+      "name": "Molčanová",
+      "selectName": "Molčanová",
+      "file": "logo_molcanova.gif",
+      "banner": "logo_molcanova.gif",
+      "icon": "icon-81.gif"
+    },
+    "most": {
+      "id": 41,
+      "name": "Most",
+      "selectName": "Most",
+      "file": "icon-41.gif",
+      "banner": null,
+      "icon": "icon-41.gif"
+    },
+    "motorest": {
+      "id": 93,
+      "name": "Motorest",
+      "selectName": "Motorest",
+      "file": "icon-93.gif",
+      "banner": null,
+      "icon": "icon-93.gif"
+    },
+    "nakona": {
+      "id": 54,
+      "name": "Nakona",
+      "selectName": "Nakona",
+      "file": "logo_nakona.gif",
+      "banner": "logo_nakona.gif",
+      "icon": "icon-54.gif"
+    },
+    "oiljpm": {
+      "id": 30,
+      "name": "OIL JPM",
+      "selectName": "OIL JPM",
+      "file": "logo_oiljpm.gif",
+      "banner": "logo_oiljpm.gif",
+      "icon": "icon-30.gif"
+    },
+    "oiloaza": {
+      "id": 62,
+      "name": "OIL OÁZA",
+      "selectName": "OIL OÁZA",
+      "file": "logo_oiloaza.gif",
+      "banner": "logo_oiloaza.gif",
+      "icon": "icon-62.gif"
+    },
+    "oktan": {
+      "id": 15,
+      "name": "Oktan",
+      "selectName": "Oktan",
+      "file": "logo_oktan.gif",
+      "banner": "logo_oktan.gif",
+      "icon": "icon-15.gif"
+    },
+    "oliva": {
+      "id": 121,
+      "name": "Oliva",
+      "selectName": "Oliva",
+      "file": "logo_oliva.gif",
+      "banner": "logo_oliva.gif",
+      "icon": "icon-121.gif"
+    },
+    "omv": {
+      "id": 9,
+      "name": "OMV",
+      "selectName": "OMV",
+      "file": "logo_omv.gif",
+      "banner": "logo_omv.gif",
+      "icon": "icon-9.gif"
+    },
+    "optimakdk": {
+      "id": 83,
+      "name": "Optima - KDK",
+      "selectName": "Optima - KDK",
+      "file": "logo_optimakdk.gif",
+      "banner": "logo_optimakdk.gif",
+      "icon": "icon-83.gif"
+    },
+    "orlen": {
+      "id": 154,
+      "name": "Orlen",
+      "selectName": "Orlen",
+      "file": "logo_orlen.gif",
+      "banner": "logo_orlen.gif",
+      "icon": "icon-154.gif"
+    },
+    "osmek": {
+      "id": 66,
+      "name": "OSMEK",
+      "selectName": "OSMEK",
+      "file": "logo_osmek.gif",
+      "banner": "logo_osmek.gif",
+      "icon": "icon-66.gif"
+    },
+    "petrolka": {
+      "id": 78,
+      "name": "Petrolka",
+      "selectName": "Petrolka",
+      "file": "icon-78.gif",
+      "banner": null,
+      "icon": "icon-78.gif"
+    },
+    "poweroil": {
+      "id": 122,
+      "name": "POWER OIL",
+      "selectName": "POWER OIL",
+      "file": "logo_poweroil.gif",
+      "banner": "logo_poweroil.gif",
+      "icon": null
+    },
+    "probugas": {
+      "id": 52,
+      "name": "PROBUGAS",
+      "selectName": "PROBUGAS",
+      "file": "logo_probugas.gif",
+      "banner": "logo_probugas.gif",
+      "icon": "icon-52.gif"
+    },
+    "progresstrading": {
+      "id": 55,
+      "name": "Progress trading",
+      "selectName": "Progress trading",
+      "file": "logo_progresstrading.gif",
+      "banner": "logo_progresstrading.gif",
+      "icon": "icon-55.gif"
+    },
+    "promont": {
+      "id": 73,
+      "name": "Promont",
+      "selectName": "Promont",
+      "file": "logo_promont.gif",
+      "banner": "logo_promont.gif",
+      "icon": "icon-73.gif"
+    },
+    "ptgas": {
+      "id": 142,
+      "name": "PT GAS",
+      "selectName": "PT GAS",
+      "file": "logo_ptgas.gif",
+      "banner": "logo_ptgas.gif",
+      "icon": "icon-142.gif"
+    },
+    "pumpanovaky": {
+      "id": 151,
+      "name": "PUMPA Nováky",
+      "selectName": "PUMPA Nováky",
+      "file": "logo_pumpa_novaky.gif",
+      "banner": "logo_pumpa_novaky.gif",
+      "icon": "icon-151.gif"
+    },
+    "ral": {
+      "id": 37,
+      "name": "RAL",
+      "selectName": "RAL",
+      "file": "logo_ral.gif",
+      "banner": "logo_ral.gif",
+      "icon": "icon-37.gif"
+    },
+    "raldes": {
+      "id": 23,
+      "name": "RALDES",
+      "selectName": "RALDES",
+      "file": "icon-23.gif",
+      "banner": null,
+      "icon": "icon-23.gif"
+    },
+    "rb": {
+      "id": 58,
+      "name": "RB",
+      "selectName": "RB",
+      "file": "logo_rb.gif",
+      "banner": "logo_rb.gif",
+      "icon": "icon-58.gif"
+    },
+    "rdtrans": {
+      "id": 74,
+      "name": "RD TRANS",
+      "selectName": "RD TRANS",
+      "file": "logo_rdtrans.gif",
+      "banner": "logo_rdtrans.gif",
+      "icon": "icon-74.gif"
+    },
+    "realhm": {
+      "id": 49,
+      "name": "REAL-HM",
+      "selectName": "REAL-HM",
+      "file": "logo_realhm.gif",
+      "banner": "logo_realhm.gif",
+      "icon": "icon-49.gif"
+    },
+    "realk": {
+      "id": 28,
+      "name": "REAL-K",
+      "selectName": "REAL-K",
+      "file": "logo_realk.gif",
+      "banner": "logo_realk.gif",
+      "icon": "icon-28.gif"
+    },
+    "sadbb": {
+      "id": 84,
+      "name": "SAD BB",
+      "selectName": "SAD BB",
+      "file": "logo_sadbb.gif",
+      "banner": "logo_sadbb.gif",
+      "icon": "icon-84.gif"
+    },
+    "sadka": {
+      "id": 79,
+      "name": "Sadka",
+      "selectName": "Sadka",
+      "file": "logo_sadka.gif",
+      "banner": "logo_sadka.gif",
+      "icon": "icon-79.gif"
+    },
+    "sassukola": {
+      "id": 47,
+      "name": "SAS - Sukola",
+      "selectName": "SAS - Sukola",
+      "file": "logo_sukola.gif",
+      "banner": "logo_sukola.gif",
+      "icon": "icon-47.gif"
+    },
+    "score": {
+      "id": 115,
+      "name": "Score",
+      "selectName": "Score",
+      "file": "logo_score.gif",
+      "banner": "logo_score.gif",
+      "icon": null
+    },
+    "shell": {
+      "id": 2,
+      "name": "Shell",
+      "selectName": "Shell",
+      "file": "logo_shell.png",
+      "banner": "logo_shell.png",
+      "icon": "icon-2.gif"
+    },
+    "slovalinvest": {
+      "id": 59,
+      "name": "Sloval Invest",
+      "selectName": "Sloval Invest",
+      "file": "logo_slovalinvest.gif",
+      "banner": "logo_slovalinvest.gif",
+      "icon": "icon-59.gif"
+    },
+    "slovnaft": {
+      "id": 6,
+      "name": "Slovnaft",
+      "selectName": "Slovnaft",
+      "file": "logo_slovnaft.png",
+      "banner": "logo_slovnaft.png",
+      "icon": "icon-6.gif"
+    },
+    "sokol": {
+      "id": 69,
+      "name": "Sokol",
+      "selectName": "Sokol",
+      "file": "icon-69.gif",
+      "banner": null,
+      "icon": "icon-69.gif"
+    },
+    "solar2009": {
+      "id": 129,
+      "name": "Solar 2009",
+      "selectName": "Solar 2009",
+      "file": "logo_solar2009.gif",
+      "banner": "logo_solar2009.gif",
+      "icon": "icon-129.gif"
+    },
+    "spectrum": {
+      "id": 24,
+      "name": "Spectrum",
+      "selectName": "Spectrum",
+      "file": "logo_spectrum.gif",
+      "banner": "logo_spectrum.gif",
+      "icon": "icon-24.gif"
+    },
+    "sppcng": {
+      "id": 139,
+      "name": "SPP CNG",
+      "selectName": "SPP CNG",
+      "file": "logo_sppcng.gif",
+      "banner": "logo_sppcng.gif",
+      "icon": "icon-139.gif"
+    },
+    "stanoil": {
+      "id": 153,
+      "name": "STANOIL",
+      "selectName": "STANOIL",
+      "file": "logo_stanoil.gif",
+      "banner": "logo_stanoil.gif",
+      "icon": "icon-153.gif"
+    },
+    "stavama": {
+      "id": 71,
+      "name": "STAVA - MA",
+      "selectName": "STAVA - MA",
+      "file": "logo_stava-ma.gif",
+      "banner": "logo_stava-ma.gif",
+      "icon": "icon-71.gif"
+    },
+    "sajgaloil": {
+      "id": 10,
+      "name": "Šajgaloil",
+      "selectName": "Šajgaloil",
+      "file": "logo_sajgaloil.gif",
+      "banner": "logo_sajgaloil.gif",
+      "icon": "icon-10.gif"
+    },
+    "smal": {
+      "id": 119,
+      "name": "Šmal",
+      "selectName": "Šmal",
+      "file": "logo_smal.gif",
+      "banner": "logo_smal.gif",
+      "icon": null
+    },
+    "tamautohof": {
+      "id": 48,
+      "name": "TAM Autohof",
+      "selectName": "TAM Autohof",
+      "file": "logo_tamautohof.gif",
+      "banner": "logo_tamautohof.gif",
+      "icon": "icon-48.gif"
+    },
+    "tankgo": {
+      "id": 50,
+      "name": "Tank & Go",
+      "selectName": "Tank & Go",
+      "file": "logo_tankago.gif",
+      "banner": "logo_tankago.gif",
+      "icon": "icon-50.gif"
+    },
+    "tanker": {
+      "id": 68,
+      "name": "Tanker",
+      "selectName": "Tanker",
+      "file": "logo_tanker.gif",
+      "banner": "logo_tanker.gif",
+      "icon": "icon-68.gif"
+    },
+    "tankpetrol": {
+      "id": 145,
+      "name": "Tankpetrol",
+      "selectName": "Tankpetrol",
+      "file": "icon-145.gif",
+      "banner": null,
+      "icon": "icon-145.gif"
+    },
+    "tankujeme": {
+      "id": 76,
+      "name": "Tankujeme",
+      "selectName": "Tankujeme",
+      "file": "icon-76.gif",
+      "banner": null,
+      "icon": "icon-76.gif"
+    },
+    "tema": {
+      "id": 90,
+      "name": "TEma",
+      "selectName": "TEma",
+      "file": "logo_tema.gif",
+      "banner": "logo_tema.gif",
+      "icon": "icon-90.gif"
+    },
+    "tesco": {
+      "id": 5,
+      "name": "Tesco",
+      "selectName": "Tesco",
+      "file": "logo_tesco.gif",
+      "banner": "logo_tesco.gif",
+      "icon": "icon-5.gif"
+    },
+    "tim": {
+      "id": 136,
+      "name": "tim€",
+      "selectName": "tim€",
+      "file": "logo_timE.gif",
+      "banner": "logo_timE.gif",
+      "icon": "icon-136.gif"
+    },
+    "tirpetroleum": {
+      "id": 39,
+      "name": "TIR Petroleum",
+      "selectName": "TIR Petroleum",
+      "file": "logo_tirpetroleum.gif",
+      "banner": "logo_tirpetroleum.gif",
+      "icon": "icon-39.gif"
+    },
+    "tomegas": {
+      "id": 85,
+      "name": "TOMEGAS",
+      "selectName": "TOMEGAS",
+      "file": "logo_tomegas.gif",
+      "banner": "logo_tomegas.gif",
+      "icon": "icon-85.gif"
+    },
+    "vion": {
+      "id": 22,
+      "name": "ViOn",
+      "selectName": "ViOn",
+      "file": "logo_vion.gif",
+      "banner": "logo_vion.gif",
+      "icon": "icon-22.gif"
+    },
+    "voms": {
+      "id": 60,
+      "name": "VOMS",
+      "selectName": "VOMS",
+      "file": "logo_voms.gif",
+      "banner": "logo_voms.gif",
+      "icon": "icon-60.gif"
+    },
+    "zagibaoil": {
+      "id": 110,
+      "name": "Zagiba OIL",
+      "selectName": "Zagiba OIL",
+      "file": "logo_zagiba.gif",
+      "banner": "logo_zagiba.gif",
+      "icon": null
+    },
+    "zcol": {
+      "id": 67,
+      "name": "Zcol",
+      "selectName": "Zcol",
+      "file": "icon-67.gif",
+      "banner": null,
+      "icon": "icon-67.gif"
+    },
+    "zempres": {
+      "id": 38,
+      "name": "Zempres",
+      "selectName": "Zempres",
+      "file": "logo_zempres.gif",
+      "banner": "logo_zempres.gif",
+      "icon": "icon-38.gif"
+    },
+    "1spsas": {
+      "id": 40,
+      "name": "1.SPS",
+      "selectName": "1.SPS",
+      "file": "logo_1sps.gif",
+      "banner": "logo_1sps.gif",
+      "icon": "icon-40.gif"
+    },
+    "jopi": {
+      "id": 34,
+      "name": "Jopi Trade",
+      "selectName": "Jopi Trade",
+      "file": "logo_jopitrade.gif",
+      "banner": "logo_jopitrade.gif",
+      "icon": "icon-34.gif"
+    },
+    "flavia": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "flaviaart": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "lpgflaga": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "lpgflavia": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "pumpa": {
+      "id": 151,
+      "name": "PUMPA Nováky",
+      "selectName": "PUMPA Nováky",
+      "file": "logo_pumpa_novaky.gif",
+      "banner": "logo_pumpa_novaky.gif",
+      "icon": "icon-151.gif"
+    },
+    "pumpasnina": {
+      "id": 151,
+      "name": "PUMPA Nováky",
+      "selectName": "PUMPA Nováky",
+      "file": "logo_pumpa_novaky.gif",
+      "banner": "logo_pumpa_novaky.gif",
+      "icon": "icon-151.gif"
+    },
+    "ingtiborzagiba": {
+      "id": 110,
+      "name": "Zagiba OIL",
+      "selectName": "Zagiba OIL",
+      "file": "logo_zagiba.gif",
+      "banner": "logo_zagiba.gif",
+      "icon": null
+    },
+    "zagiba": {
+      "id": 110,
+      "name": "Zagiba OIL",
+      "selectName": "Zagiba OIL",
+      "file": "logo_zagiba.gif",
+      "banner": "logo_zagiba.gif",
+      "icon": null
+    },
+    "lpgcars": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "lpgroznava": {
+      "id": 46,
+      "name": "Flaga",
+      "selectName": "Flaga",
+      "file": "logo_flaga.gif",
+      "banner": "logo_flaga.gif",
+      "icon": "icon-46.gif"
+    },
+    "okoil": {
+      "id": 30,
+      "name": "OIL JPM",
+      "selectName": "OIL JPM",
+      "file": "logo_oiljpm.gif",
+      "banner": "logo_oiljpm.gif",
+      "icon": "icon-30.gif"
+    }
+  }
+}
